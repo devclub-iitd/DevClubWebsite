@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ehA1G"]); }
+
+__d("ChatNotificationConstants",[],(function a(b,c,d,e,f,g){f.exports={NORMAL:0,NO_USER_MESSAGE_NOTIFICATION:1};}),null);

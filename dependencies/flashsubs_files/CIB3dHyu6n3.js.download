@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bz1yM"]); }
+
+__d('messengerTextWithEmoticons',['reasonReact','MessengerTextWithEmoticons.react'],(function a(b,c,d,e,f,g){'use strict';function h(i,j){return c('reasonReact').wrapJsForReason(c('MessengerTextWithEmoticons.react'),{text:i},j);}g.make=h;}),null);

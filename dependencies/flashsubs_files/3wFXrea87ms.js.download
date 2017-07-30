@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Wr2mQ"]); }
+
+__d('messengerMenuReact',['reasonReact','bs_js_null_undefined','MessengerMenu.react'],(function a(b,c,d,e,f,g){'use strict';function h(n){return c('reasonReact').wrapJsForReason(c('MessengerMenu.react'),{},n);}var i=[h];function j(n,o,p,q,r){return c('reasonReact').wrapJsForReason(c('MessengerMenu.react').Item,{href:c('bs_js_null_undefined').from_opt(n),label:o,onclick:c('bs_js_null_undefined').from_opt(p),target:c('bs_js_null_undefined').from_opt(q)},r);}var k=[j];function l(n){return c('reasonReact').wrapJsForReason(c('MessengerMenu.react').Separator,{},n);}var m=[l];g.Menu=i;g.MenuItem=k;g.MenuSeparator=m;}),null);
