@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["SvmLj"]); }
+
+__d('ReactDispatcher_DEPRECATED',['Dispatcher_DEPRECATED','ReactDOM'],(function a(b,c,d,e,f,g){'use strict';var h,i;h=babelHelpers.inherits(j,c('Dispatcher_DEPRECATED'));i=h&&h.prototype;j.prototype.dispatch=function(k){c('ReactDOM').unstable_batchedUpdates(function(){i.dispatch.call(this,k);}.bind(this));};function j(){h.apply(this,arguments);}f.exports=j;}),null);

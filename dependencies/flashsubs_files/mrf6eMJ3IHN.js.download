@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["fkx9P"]); }
+
+__d('messengerBannerReact',['utilsRe','reasonReact','bs_js_null_undefined','MessengerBanner.react'],(function a(b,c,d,e,f,g){'use strict';function h(i,j,k){return c('reasonReact').wrapJsForReason(c('MessengerBanner.react'),{initialPromotionData:c('bs_js_null_undefined').from_opt(i),isFirstRedirect:c('utilsRe').optionBoolToNullUndefinedBoolean(j)},k);}g.make=h;}),null);
