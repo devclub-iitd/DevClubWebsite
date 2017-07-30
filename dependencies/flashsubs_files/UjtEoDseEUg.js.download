@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["gnsPn"]); }
-
-__d('insertMentionIntoEditorState',['DraftModifier','EditorState','GroupTypeaheadTypeEnum'],(function a(b,c,d,e,f,g){'use strict';function h(k,l,m,n){var o=l.getSelection(),p=l.getCurrentContent(),q=o.getAnchorKey(),r=o.getAnchorOffset(),s=p.getBlockMap().get(q),t=r-j(s.getText().substr(0,r),i(k),m),u=c('DraftModifier').replaceText(p,o.set('anchorOffset',t),i(k),l.getCurrentInlineStyle(),n(k));return c('EditorState').push(l,u,'insert-fragment');}function i(k){if(k.getType()===c('GroupTypeaheadTypeEnum').GROUP_RULE)return k.getSubtitle();return k.getTitle();}function j(k,l,m){for(var n=m;n<=l.length;n++)if(k.substr(-n)==l.substr(0,n))m=n;return m;}f.exports=h;}),null);

@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["CyYNK"]); }
-
-__d("MessagingThreadCustomizationSource",[],(function a(b,c,d,e,f,g){f.exports={ADMIN_MSG_CHANGE_LINK:"admin_msg",THREAD_INLINE:"thread_inline",JOURNEY_PROMPT:"journey_prompt",JOURNEY_PROMPT_WRITE_IN:"journey_prompt_write_in",PROMO_LINK:"promo_link",SETTINGS:"thread_settings",USER_INFO_ACTION_SHEET:"user_info_action_sheet",ROOM_CREATION:"room_creation"};}),null);

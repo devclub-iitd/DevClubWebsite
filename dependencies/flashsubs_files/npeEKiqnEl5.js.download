@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["FTdPn"]); }
-
-__d('chatEmojiSkinTonePreferencePickerReact',['reasonReact','ChatEmojiSkinTonePreferencePicker.react'],(function a(b,c,d,e,f,g){'use strict';function h(i,j,k){return c('reasonReact').wrapJsForReason(c('ChatEmojiSkinTonePreferencePicker.react'),{currentPreference:i,onSelect:j},k);}g.make=h;}),null);

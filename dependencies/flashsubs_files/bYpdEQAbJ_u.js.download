@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["Ku5y1"]); }
-
-__d('ChatProfileStore',['ChatSidebarPreloadStore'],(function a(b,c,d,e,f,g){'use strict';var h={},i={init:function j(){c('ChatSidebarPreloadStore').onLoaded(function(k){var l=k.profiles,m=k.nearby;return l.filter(function(n){return !m||m.indexOf(n.id)===-1;}).forEach(function(n){var o=new Date(),p=n.birthdate&&o.getDate()===n.birthdate.day&&o.getMonth()+1===n.birthdate.month,q=n.profile_picture&&n.profile_picture.uri?n.profile_picture.uri:null;h[n.id]={id:n.id,is_birthday:p,thumbSrc:q,name:n.name,is_messenger_only:!!n.is_messenger_only};});});},get:function j(k){return h[k];}};f.exports=i;}),null);
