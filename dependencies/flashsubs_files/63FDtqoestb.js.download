@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["Q1IXV"]); }
-
-__d('shouldAddMRefParam',['isFacebookURI'],(function a(b,c,d,e,f,g){var h=function i(j){if(!c('isFacebookURI')(j)||j.getFragment())return false;if(/^\/events\//.test(j.getPath()))return true;return false;};f.exports=h;}),null);

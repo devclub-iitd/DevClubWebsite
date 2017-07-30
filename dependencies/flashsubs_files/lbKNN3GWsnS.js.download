@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["LJPVk"]); }
-
-__d('FlipDirectionOnKeypress',['Event','FlipDirection'],(function a(b,c,d,e,f,g){var h=function i(event){var j=event.getTarget();c('FlipDirection').setDirection(j);};c('Event').listen(document.documentElement,{keyup:h,input:h});}),null);

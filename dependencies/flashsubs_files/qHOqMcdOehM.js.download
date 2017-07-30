@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["Dj1hk"]); }
-
-__d('messengerThreadlistNewMessageRowReact',['bs_js_boolean','reasonReact','MessengerThreadlistNewMessageRow.react'],(function a(b,c,d,e,f,g){'use strict';function h(i,j,k){return c('reasonReact').wrapJsForReason(c('MessengerThreadlistNewMessageRow.react'),{isActive:c('bs_js_boolean').to_js_boolean(i),onClose:j},k);}g.make=h;}),null);
