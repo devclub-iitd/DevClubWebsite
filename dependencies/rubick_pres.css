@@ -2427,7 +2427,7 @@ a.carousel-control span.fa {
   font-weight: 100;
   font-size: 6em;
   font-family: 'Open Sans' !important;;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
 }
 .section-header h5 {
