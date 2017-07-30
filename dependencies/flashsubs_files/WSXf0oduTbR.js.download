@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["S4ar6"]); }
-
-__d('messengerScrollableAreaReact',['reasonReact','bs_js_null_undefined','MessengerScrollableArea.react'],(function a(b,c,d,e,f,g){'use strict';function h(i,j){return c('reasonReact').wrapJsForReason(c('MessengerScrollableArea.react'),{height:c('bs_js_null_undefined').from_opt(i)},j);}g.make=h;}),null);

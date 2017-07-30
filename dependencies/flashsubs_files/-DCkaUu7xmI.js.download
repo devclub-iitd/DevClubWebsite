@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["3vEO9"]); }
-
-__d('ChatPageComposerNullState.react',['cx','fbt','Link.react','React'],(function a(b,c,d,e,f,g,h,i){'use strict';var j=function k(l){return c('React').createElement('div',{className:"_2xh0"},c('React').createElement('div',{className:"_2xh4 _59w_"},c('React').createElement(c('Link.react'),{className:"_2xh6"+(' '+"_2xh7")+(l.disabled?' '+"_5vsu":''),onClick:l.onClick},i._("{name}",[i.param('name',l.title)]))));};f.exports=j;}),null);

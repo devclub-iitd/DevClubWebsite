@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["cNZDj"]); }
-
-__d('emojiAndEmote',['DOMEmoji','DOMEmote','FbtResultBase','transformTextToDOM'],(function a(b,c,d,e,f,g){'use strict';var h=function i(j,k){if(j instanceof c('FbtResultBase'))return [j];var l=k?{isSupportedEmoji:k.isSupportedEmoji}:null,m=k?{getMessengerEmote:k.getMessengerEmote}:null,n=[c('DOMEmoji').params(l),c('DOMEmote').params(m)];return c('transformTextToDOM')(j,n);};f.exports=h;}),null);
