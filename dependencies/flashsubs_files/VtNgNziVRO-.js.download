@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["xfb7+"]); }
+
+__d("MessageCustomizationType",[],(function a(b,c,d,e,f,g){f.exports={BORDER:"border"};}),null);

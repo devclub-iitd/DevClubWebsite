@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["f8tpL"]); }
+
+__d('RedditLinkMatcher',[],(function a(b,c,d,e,f,g){'use strict';var h=new RegExp('(^|\\s)(\\/[ru]\\/\\w{1,21})(?:\\b)','i'),i=function l(m){var n=h.exec(m);if(n===null)return null;return {lnk:n[2],idx:n.index+n[1].length};},j=function l(m){return h.exec(m)!==null;},k={match:i,isMatch:j};f.exports=k;}),null);
