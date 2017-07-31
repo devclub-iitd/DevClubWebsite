@@ -54,10 +54,11 @@
     <title>Dev Club</title>
 
 
-    
+
 
     <link href="./dependencies/bootstrap.css" rel="stylesheet">
     <link href="./dependencies/rubick_pres.css" rel="stylesheet">
+    <link href="./css/animation_styles.css" rel="stylesheet">
     <!--     Fonts and icons     -->
     <link href="./dependencies/font-awesome.min.css" rel="stylesheet">
     <link href="./dependencies/css" rel="stylesheet" type="text/css">
@@ -66,34 +67,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-    	#whoWeAre{
-    		padding-bottom: 1px;
-    	}
-    	#backg{
-    		opacity:1;
-    	}
-        .verb {
-            border-bottom: 3px dotted #ccc;
+        #whoWeAre {
+            padding-bottom: 1px;
         }
         
-        .question {
-            color: #f05a28;
-        }
-        
-        .make {
-            color: #7546b2;
-        }
-        
-        .invent {
-            color: #2cb5e5;
-        }
-        
-        .code {
-            color: #39b54a;
-        }
-        
-        .design {
-            color: #ef4136;
+        #backg {
+            opacity: 1;
         }
         
         .section-header .separator {
@@ -357,7 +336,7 @@
                             Our Projects
                             </a>
                     </li>
-                    
+
                     <li>
                         <a href="" data-scroll="true" data-id="#team">
                             Team
@@ -377,11 +356,12 @@
                 <div class="container">
                     <div class="content">
                         <h1>Dev.Club</h1>
-                        <h3>Software Development Club, IIT Delhi<h3>
-                        <div class="separator-container">
-                            <div class="separator line-separator">∎</div>
-                        </div>
-                        <h2>We <span class="verb"></span> things</h2>
+                        <h3>Software Development Club, IIT Delhi
+                            <h3>
+                                <div class="separator-container">
+                                    <div class="separator line-separator">∎</div>
+                                </div>
+                                <h2>We <span class="verb"></span> things</h2>
                     </div>
                 </div>
             </div>
@@ -866,24 +846,14 @@
         <script type="text/javascript">
             console.log("hi");
             $(".verb").typed({
-                //place space before strings otherwise doesnt render with html tags properly
+                //place space before strings otherwise doesn't render with html tags properly
                 strings: [' <span class="question">question</span>', ' <span class="make">make</span>', ' <span class="code">code</span>', ' <span class="design">design</span>', ' <span class="invent">invent</span>'],
                 typeSpeed: 80,
                 backSpeed: 30,
                 backDelay: 1500,
                 loop: true,
                 showCursor: true,
-                /*preStringTyped: function(curStringPos){
-
-                	$('#carousel').carousel('next')
-                	
-                	if(curStringPos == 2){
-                		// remove first blank png so that it doesnt show again
-                		$("#placeholder-slide").remove();
-                	}
-                	
-                }*/
-            })
+            });
         </script>
 
         <script type="text/javascript">
