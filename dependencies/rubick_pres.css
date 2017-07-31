@@ -2220,7 +2220,7 @@ a,
   content: "";
   opacity: .4;
   background: #000;
-  background: url("../img/pattern.png");
+  /* background: url("../img/pattern.png"); */
 }
 
 .filter {
