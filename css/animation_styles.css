@@ -1,0 +1,27 @@
+/*
+Styling for typing animation
+*/
+
+.verb {
+    border-bottom: 3px dotted #ccc;
+}
+
+.question {
+    color: #f05a28;
+}
+
+.make {
+    color: #7546b2;
+}
+
+.invent {
+    color: #2cb5e5;
+}
+
+.code {
+    color: #39b54a;
+}
+
+.design {
+    color: #ef4136;
+}
