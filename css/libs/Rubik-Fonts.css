@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Slim-Joe';
+	src:url('../../fonts/Slim-Joe/Slim-Joe.eot?d7yf1v');
+	src:url('../../fonts/Slim-Joe/Slim-Joe.eot?#iefixd7yf1v') format('embedded-opentype'),
+		url('../../fonts/Slim-Joe/Slim-Joe.woff?d7yf1v') format('woff'),
+		url('../../fonts/Slim-Joe/Slim-Joe.ttf?d7yf1v') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+} 
