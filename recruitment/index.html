@@ -1,13 +1,86 @@
+<!doctype html>
 <html>
 <head>
-        <title>Dev Club Recruitment</title>
+    <title>DevClub Recruitment</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    }
+    </style>
 </head>
 
 <body>
-    <h1 style="color: #26aa18;">Dev Club Recruitment 2018</h1>
-	<h3> <a href="recruitment18.pdf" target="_blank"> Assignment </a> <h3>
-	<h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSfOHgYviabSAFKiu2re8aZHrBUI_vqgfxlNCF5IBGPjmJaccQ/viewform?usp=sf_link" target="_blank">Submission Link</a></h3>
-        <br><br><br>
-    <h2> Deadline: 1st March 2018 11:55 PM </h2>
+<div>
+  <body>
+      <center><h1 style="color: #26aa18;">Dev Club Recruitment 2018</h1>
+        <br><br>
+  	<h3> <a href="recruitment18.pdf" target="_blank"> Assignment </a> <h3>
+  	<h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSfOHgYviabSAFKiu2re8aZHrBUI_vqgfxlNCF5IBGPjmJaccQ/viewform?usp=sf_link" target="_blank">Submission Link</a></h3>
+          <br><br><br>
+      <h2> Deadline: 1st March 2018 11:55 PM </h2>
+  <h2 style="color: #ff0000;"> Time Left:  <span id="demo"></span></h2></center>
+  </body>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Mar 1, 2018 23:55:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 </body>
 </html>
