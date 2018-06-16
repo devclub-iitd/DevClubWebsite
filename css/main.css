@@ -42,6 +42,7 @@
 
 .section-we-are-1 .title {
     max-width: 960px;
+   
 }
 
 .card .icon~h3 {
@@ -79,6 +80,7 @@
 .section-we-made-3 .content {
     padding: 0 15px;
     text-align: center;
+    height: 75vh;
 }
 
 .section-we-made-3 .over-area .content h3 {
