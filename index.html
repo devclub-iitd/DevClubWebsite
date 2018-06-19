@@ -17,7 +17,10 @@
     <title>Dev Club</title>
 
     <!-- stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
     <link href="./css/libs/rubick_pres.css" rel="stylesheet">
     <link href="./css/animation_styles.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet" type="text/css">
@@ -29,10 +32,9 @@
 
 </head>
 
-<body class="no-touch">
+<body>
 
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
-        <!-- to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
         <div class="container">
             <div class="navbar-header" style="height: 10vh;">
                 <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
@@ -76,7 +78,6 @@
             <!-- /.navbar-collapse -->
         </div>
     </nav>
-
     <div class="wrapper">
         <div class="section section-header">
             <div class="parallax pattern-image">
@@ -84,7 +85,7 @@
                 <!--                     <img src="/assets/img/header6.jpg"/> -->
                 <div class="container">
                     <div class="content">
-                        <h1><font style="border: 4px; border-style: solid;">&nbspDev.Club&nbsp</font></h1>
+                        <h1 ><font style="border: 4px; border-style: solid;">&nbspDev.Club&nbsp</font></h1>
                         <h3>Software Development Club, IIT Delhi
                             <h3>
                                 <div class="separator-container">
@@ -121,34 +122,74 @@
         </div>-->
 
             <div class="section section-we-made-3" id="uitools" style="background: #bf634c;">
-               <!-- <div class="container">
+               <div class="container">
                     <div class="row">
                         <div class="title add-animation">
                             <h2>Our Projects</h2>
                             <div class="separator-container">
                                 <div class="separator line-separator">∎</div>
                             </div>
-                            <p>Check out some of our projects, made with ♥&nbsp;and a BIT of coffee<br><br></p>
+                            <p style="color: black;">Check out some of our projects, made with ♥&nbsp;and a BIT of coffee<br><br></p>
                         </div>
                     </div>
-                </div>-->
-
-
+                </div>
                 <div class="container">
+    <div class="row">
+        <div id="carouselControls" class="carousel vert slide col-md-6" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     
-                        <div class="row">
-                            <div class="col-md-4 ">
-
-                                <div class="project add-animation animation-3">
                                     <a target="_blank"  href="https://aman71197.github.io/CampusBot/">
-                                        <img src="./public/images/campusbot1.png" style="height: 500px; ">
+                                        <img src="./public/images/placeholder.jpg" width="100%">
                                     </a>
-                                </div>
+                </div>
+            
+                <div class="carousel-item">
+                    
+                                    <a target="_blank" class="img-class" href="http://study.devclub.iitd.ac.in">
+                                        <img src="./public/images/placeholder.jpg" width="100%">
+                 </div>              
+                <div class="carousel-item">
+                   
+                                    <a target="_blank" class="img-class" href="http://fs.devclub.iitd.ac.in">
+                                        <img src="./public/images/placeholder.jpg" width="100%">                                    
+                                    </a>
+                </div>
+                <div class="carousel-item">
+                   
+                                    <a target="_blank" class="img-class" href="https://game.devclub.iitd.ac.in">
+                                       <img src="./public/images/placeholder.jpg" width="100%">
+                                    </a>
+                                
+                </div>
+                <div class="carousel-item">
+                  
+                                    <a target="_blank" class="img-class" href="https://github.com/ozym4nd145/FlashSubs">
+                                       <img src="./public/images/placeholder.jpg" width="100%">
+                                    </a>
+                             
+                </div>
+            </div>
+        </div>
+        <div id="carouselControlsSimple" class="carousel slide col-md-6" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicatorsSimple" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicatorsSimple" data-slide-to="1"></li>
+                <li data-target="#carouselIndicatorsSimple" data-slide-to="2"></li>
+                <li data-target="#carouselIndicatorsSimple" data-slide-to="3"></li>
+                <li data-target="#carouselIndicatorsSimple" data-slide-to="4"></li>
 
-                            </div>
-                            <div class="col-md-8">
-                                <div class="over-area over-area-sm color-1">
-                                    <div class="content">
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="content">
 
                                         <h3>Campus Bot</h3>
                                         <p style="font-size:105%;">Campus Bot is a chat bot that was born at IIT Delhi. Campus Bot is one stop solution for all the campus needs that students and the faculty in the campus can use. It has been integrated into numerous chatting platforms.
@@ -157,6 +198,67 @@
                                         <a target="_blank" href="https://github.com/devclub-iitd/CampusBot/" class="btn btn-round btn-fill">GitHub Repository</a>
 
                                     </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+
+                                        <h3>Study Portal</h3>
+                                        <p style="font-size:105%;">We bring to you one of its kind crowd contributed portal. For the students, by the students and of the students. It acts as a one stop platform for all the learning that you will need. Share, learn and go. Presenting the study portal (Can be accessed only in internal IITD network)</p>
+                                        <a target="_blank" href="http://study.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Portal</a>&nbsp&nbsp&nbsp
+                                        <a target="_blank" href="https://github.com/devclub-iitd/BookShelf" class="btn btn-round btn-fill">GitHub Repository</a>
+                                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+
+                                        <h3>SenData</h3>
+                                        <p style="font-size:105%;">Send large files seamlessly through the internet, without the hassle of uploading it on a server first. A simple tool that gets the job done. Powered by WebRTC.</p>
+                                        <a target="_blank" href="http://fs.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Website</a>&nbsp&nbsp&nbsp
+                                        <a target="_blank" href="https://github.com/devclub-iitd/SenData" class="btn btn-round btn-fill">GitHub Repository</a>
+                                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+
+                                        <h3>Tank Assault</h3>
+                                        <p style="font-size:105%;">Love solving mazes? Or love shooting? We bring for you an awesome combination of both which will leave you thrilled. Come and join us. Compete with your friends or with our awesome A.I.(Model under Training)</p>
+                                        <a target="_blank" href="https://game.devclub.iitd.ac.in" class="btn btn-round btn-fill">Let's Play!</a>&nbsp&nbsp&nbsp
+                                        <a target="_blank" href="https://github.com/devclub-iitd/TankAssault2" class="btn btn-round btn-fill">GitHub Repository</a>
+                                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+
+                                        <h3>Flash Subs</h3>
+                                        <p style="font-size:105%;">Flash subs is a python program that manages our media library i.e. it can automatically download subtitles and other information(Correct Title, IMDB rating, Plot Summary etc.) for movies and TV Series in our computer.</p>
+                                        <p style="font-size:105%;">Subtitles are searched using- 1. Subdb database (hash) 2. Opensubtitles database (hash) 3. Opensubtitles database (name) 4. Bing (name) Thus, the probability of finding the subtitles become quite high.</p>
+                                        <a target="_blank" href="https://github.com/ozym4nd145/FlashSubs" class="btn btn-round btn-fill">GitHub Repository</a>
+                                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+                <!--<div class="container">
+                    
+                        <div class="row">
+                            
+
+                                
+
+                            </div>
+                            <div class="col-md-8">
+                                <div class="over-area over-area-sm color-1">
+                                    
                                     <a href="" data-scroll="true" data-id="#uitools1" class="scroll-arrow hidden-xs hidden-sm">
                 <i class="fa fa-angle-down"></i>
             </a>
@@ -173,22 +275,12 @@
                         <div class="row">
                             <div class="col-md-4 ">
 
-                                <div class="project add-animation animation-3">
-                                    <a target="_blank" class="img-class" href="http://study.devclub.iitd.ac.in">
-                                        <img src="./public/images/studyportal.png">
-                                    </a>
-                                </div>
+                                
 
                             </div>
                             <div class="col-md-8">
                                 <div class="over-area over-area-sm color-1">
-                                    <div class="content">
-
-                                        <h3>Study Portal</h3>
-                                        <p style="font-size:105%;">We bring to you one of its kind crowd contributed portal. For the students, by the students and of the students. It acts as a one stop platform for all the learning that you will need. Share, learn and go. Presenting the study portal (Can be accessed only in internal IITD network)</p>
-                                        <a target="_blank" href="http://study.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Portal</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/BookShelf" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div><a href="" data-scroll="true" data-id="#uitools2" class="scroll-arrow hidden-xs hidden-sm">
+                                    ><a href="" data-scroll="true" data-id="#uitools2" class="scroll-arrow hidden-xs hidden-sm">
                 <i class="fa fa-angle-down" style="color: black;"></i>
             </a>
                                 </div>
@@ -202,22 +294,12 @@
                         <div class="row">
                             <div class="col-md-4 ">
 
-                                <div class="project add-animation animation-3">
-                                    <a target="_blank" class="img-class" href="http://fs.devclub.iitd.ac.in">
-                                        <img src="./public/images/sendata.png">
-                                    </a>
-                                </div>
+                                
 
                             </div>
                             <div class="col-md-8">
                                 <div class="over-area over-area-sm color-1">
-                                    <div class="content">
-
-                                        <h3>SenData</h3>
-                                        <p style="font-size:105%;">Send large files seamlessly through the internet, without the hassle of uploading it on a server first. A simple tool that gets the job done. Powered by WebRTC.</p>
-                                        <a target="_blank" href="http://fs.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Website</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/SenData" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div><a href="" data-scroll="true" data-id="#uitools3" class="scroll-arrow hidden-xs hidden-sm">
+                                    <a href="" data-scroll="true" data-id="#uitools3" class="scroll-arrow hidden-xs hidden-sm">
                 <i class="fa fa-angle-down"></i>
             </a>
                                 </div>
@@ -232,22 +314,12 @@
                         <div class="row">
                             <div class="col-md-4 ">
 
-                                <div class="project add-animation animation-3">
-                                    <a target="_blank" class="img-class" href="https://game.devclub.iitd.ac.in">
-                                        <img src="./public/images/tankassault.png">
-                                    </a>
-                                </div>
+                                
 
                             </div>
                             <div class="col-md-8">
                                 <div class="over-area over-area-sm color-1">
-                                    <div class="content">
-
-                                        <h3>Tank Assault</h3>
-                                        <p style="font-size:105%;">Love solving mazes? Or love shooting? We bring for you an awesome combination of both which will leave you thrilled. Come and join us. Compete with your friends or with our awesome A.I.(Model under Training)</p>
-                                        <a target="_blank" href="https://game.devclub.iitd.ac.in" class="btn btn-round btn-fill">Let's Play!</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/TankAssault2" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div><a href="" data-scroll="true" data-id="#uitools4" class="scroll-arrow hidden-xs hidden-sm">
+                                    <a href="" data-scroll="true" data-id="#uitools4" class="scroll-arrow hidden-xs hidden-sm">
                 <i class="fa fa-angle-down" style="color: black;"></i>
             </a>
                                 </div>
@@ -261,22 +333,12 @@
                             <div class="row">
                             <div class="col-md-4 ">
 
-                                <div class="project add-animation animation-3">
-                                    <a target="_blank" class="img-class" href="https://github.com/ozym4nd145/FlashSubs">
-                                        <img src="./public/images/flashsubs.png">
-                                    </a>
-                                </div>
+                                
 
                             </div>
                             <div class="col-md-8">
                                 <div class="over-area over-area-sm color-1">
-                                    <div class="content">
-
-                                        <h3>Flash Subs</h3>
-                                        <p style="font-size:105%;">Flash subs is a python program that manages our media library i.e. it can automatically download subtitles and other information(Correct Title, IMDB rating, Plot Summary etc.) for movies and TV Series in our computer.</p>
-                                        <p style="font-size:105%;">Subtitles are searched using- 1. Subdb database (hash) 2. Opensubtitles database (hash) 3. Opensubtitles database (name) 4. Bing (name) Thus, the probability of finding the subtitles become quite high.</p>
-                                        <a target="_blank" href="https://github.com/ozym4nd145/FlashSubs" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
+                                    
                                 </div>
 
                             </div>
@@ -285,7 +347,7 @@
             </div>
             </div>
         </div>
-         <!--   <div class="section section-team-2" id="team">
+       <div class="section section-team-2" id="team">
                 <div class="container">
                     <div class="text-area">
                         <div class="title add-animation">
@@ -561,7 +623,8 @@
 
         <!--   core js files    -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
         <!--   file for adding vertical points where we activate the elements animation   -->
         <script type="text/javascript" src="./js/libs/jquery.waypoints.min.js"></script>
         <!--  js library for devices recognition -->
@@ -572,6 +635,16 @@
         <script type="text/javascript" src="./js/libs/typed.js"></script>
         <!-- script for typing animation -->
         <script type="text/javascript" src="./js/typing_animation.js"></script>
+        <script type="text/javascript">
+        $('.carousel-control-next').click(function() {
+        $("#carouselControlsSimple").carousel("next");
+        $("#carouselControls").carousel("next");
+            });
+
+        $('.carousel-control-prev').click(function() {
+        $("#carouselControlsSimple").carousel("prev");
+        $("#carouselControls").carousel("prev");
+        });</script>
 
 </body>
 
