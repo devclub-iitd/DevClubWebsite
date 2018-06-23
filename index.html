@@ -1,637 +1,710 @@
-<!DOCTYPE html>
-<html lang="en" class=" js no-touch">
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Dev Club</title>
+        <meta property="og:title" content="Dev Club" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://devclub-iitd.github.io/devClubWebsite/" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/devclub-iitd/devClubWebsite/master/public/images/devclub.png" />
+        <meta property="og:description" content="Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus." />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link type="text/css" rel="stylesheet" href="./css/libs/fonts.css">
-    <meta property="og:title" content="Dev Club" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://devclub-iitd.github.io/devClubWebsite/" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/devclub-iitd/devClubWebsite/master/public/images/devclub.png" />
-    <meta property="og:description" content="Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus." />
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="public_images/devclub.png" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
+        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
 
-    <link rel="icon" type="image/png" href="./public/images/devclub.png">
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
 
-    <title>Dev Club</title>
+    </head>
+    <body>
 
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tr>
+                <td>
+                    
+                </td>
+            </tr>
+        </table>
+
+        <!-- Menu -->
+        <div class="menu-wrapper center-relative">
+            <nav id="header-main-menu">
+                <div class="mob-menu">MENU</div>
+                <ul class="main-menu sm sm-clean">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">About Us</a></li>
+                    <li><a href="#portfolio">Campus Bot</a></li>
+                    <li><a href="#about">Study Portal</a></li>
+                    <li><a href="#news">Sendata</a></li>
+                    <li><a href="#video">Grades IITD</a></li>
+                    <li><a href="#skills">YearBook</a></li>
+                    <li><a href="#contact">Our Team</a></li>
+                </ul>
+            </nav>
+        </div>
 
 
-    <link href="./css/libs/rubick_pres.css" rel="stylesheet">
-    <link href="./css/animation_styles.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet" type="text/css">
-    <!--     Fonts and icons     -->
-    <link href="./css/libs/font-awesome.min.css" rel="stylesheet">
-    <link href="./css/libs/fonts.css" rel="stylesheet" type="text/css">
-    <link href="./css/libs/Rubik-Fonts.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</head>
+        <!-- Home -->
 
-<body>
-
-    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
-        <div class="container">
-            <div class="navbar-header" style="height: 10vh;">
-                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar bar1"></span>
-                    <span class="icon-bar bar2"></span>
-                    <span class="icon-bar bar3"></span>
-                    </button>
-                <a target="_blank" href="#" class="navbar-brand">
-                    Dev Club
-                    </a>
+        <div id="home" class="section intro-page">
+            <div class="block content-1170 center-relative center-text">
+                <h1 class="big-title"><font style="border: 4px; border-style: solid;">&nbspDev.Club&nbsp</font></h1>
+                <br>
+                <p class="title-desc">Software Development Club, IIT Delhi</p>
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right navbar-uppercase">
-                    <li class="social-links">
-                        <a target="_blank" href="https://www.facebook.com/tech.iitd">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a target="_blank" href="https://github.com/devclub-iitd">
-                            <i class="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" data-scroll="true" data-id="#whoWeAre">
-                            About
-                            </a>
-                    </li>
-                    <li>
-                        <a href="" data-scroll="true" data-id="#uitools">
-                            Our Projects
-                            </a>
-                    </li>
+        </div>
 
-                    <li>
-                        <a href="" data-scroll="true" data-id="#team">
-                            Team
+
+
+        <!-- Service -->
+
+        <div id="services" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="section-num">
+                        <span>01</span>
+                    </div>
+                    <h2 class="entry-title">About</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <script>
+                            var slider1_speed = "500";
+                            var slider1_auto = "false";
+                            var slider1_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative service slider1">
+                            <a id="slider1_next" class="image_slider_next" href ="#"></a>
+
+                            <ul id="slider1" class="image-slider slides">
+                                <li>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_01.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">BRANDING</div>
+                                            <div class="service-content">
+                                                Donecos arem ipsum sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_02.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">MOBILE APPS</div>
+                                            <div class="service-content">
+                                                Disum lorem sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_03.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">WEB</div>
+                                            <div class="service-content">
+                                                Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_04.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">GRAPHIC</div>
+                                            <div class="service-content">
+                                                Cadipisicing elit sed eiusmod tempor incididunt ut labore lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_03.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">SERVICES</div>
+                                            <div class="service-content">
+                                                Donecos arem ipsum sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_04.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">PSD</div>
+                                            <div class="service-content">
+                                                Disum lorem sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut donecos dolore ipsum temporest.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_02.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">HTML</div>
+                                            <div class="service-content">
+                                                Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="service-holder ">
+                                        <img src="demo-images/icon_01.png" alt="">
+                                        <div class="service-content-holder">
+                                            <div class="service-title">PHP</div>
+                                            <div class="service-content">
+                                                Cadipisicing elit sed eiusmod tempor incididunt ut labore lorem ipsum dolor sit amet consectetur lorem ipsum dolor sit amet.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class = "clear"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class='clear'></div>
+            </div>
+        </div>
+
+
+        <!-- Portfolio -->
+        <div id="portfolio" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="section-num">
+                        <span>02</span>
+                    </div>
+                    <h2 class="entry-title">CampusBot</h2>
+                </div>
+                <div class="section-content-holder portfolio-holder left">
+                    <div class="grid" id="portfolio-grid">
+                        <div class="grid-sizer"></div>
+                        <div class="grid-item element-item p_one">
+                            <a href="single-portfolio.html">
+                                <img src="demo-images/portfolio_item_01.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        <p class="portfolio-type">
+                                            <img src="images/icon_post.svg" alt="">
+                                        </p>
+                                        <p class="portfolio-text">PSD MOCKUP</p>
+                                        <p class="portfolio-sec-text">Smart Watch</p>
+                                    </div>
+                                </div>
                             </a>
+                        </div>
+                        <div class="grid-item element-item p_one_half">
+                            <a href="single-portfolio2.html">
+                                <img src="demo-images/portfolio_item_02.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        <p class="portfolio-type">
+                                            <img src="images/icon_post.svg" alt="">
+                                        </p>
+                                        <p class="portfolio-text">PSD MOCKUP</p>
+                                        <p class="portfolio-sec-text">Smart Watch</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item element-item p_one_half">
+                            <a data-rel="prettyPhoto[gallery1]" href="demo-images/portfolio_item_08.jpg">
+                                <img src="demo-images/portfolio_item_08.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        <p class="portfolio-type">
+                                            <img src="images/icon_post.svg" alt="">
+                                        </p>
+                                        <p class="portfolio-text">PSD MOCKUP</p>
+                                        <p class="portfolio-sec-text">Smart Watch</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item element-item p_one">
+                            <a data-rel="prettyPhoto[gallery1]" href="demo-images/portfolio_item_05.jpg">
+                                <img src="demo-images/portfolio_item_05.jpg" alt="">
+                                <div class="portfolio-text-holder">
+                                    <div class="portfolio-text-wrapper">
+                                        <p class="portfolio-type">
+                                            <img src="images/icon_post.svg" alt="">
+                                        </p>
+                                        <p class="portfolio-text">PSD MOCKUP</p>
+                                        <p class="portfolio-sec-text">Smart Watch</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+                    <div class="block portfolio-load-more-holder">
+                        <a target="_self" class="more-posts">LOAD MORE</a>
+                        <img src="images/icon_infinity.svg" alt="Load more">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <!-- About -->
+        <div id="about" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="section-num">
+                        <span>03</span>
+                    </div>
+                    <h2 class="entry-title">STUDY PORTAL</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title">STUDY</p>
+                        </div>
+                        <div class="one_half ">
+                            Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum <strong>dolor sit amet</strong> consectetur est adipisicing elit, sed do eiusmod tempor
+                        </div>
+                        <div class="one_half last ">
+                            <span style="color: #e54b76;"><strong>2001-2003 ·</strong></span> <span style="color:#727190;"><em>Art Studio Lorem Donec</em></span><br>
+                            <span style="color: #e54b76;"><strong>2003-2006 ·</strong></span> <span style="color:#727190;"><em>Per Set Web Site</em></span><br>
+                            <span style="color: #e54b76;"><strong>2006-2010 ·</strong></span> <span style="color:#727190;"><em>Setera Donec EstNunc</em></span><br>
+                            <span style="color: #e54b76;"><strong>2010-2013 ·</strong></span> <span style="color:#727190;"><em>Studio Labore Tempor</em></span><br>
+                            <span style="color: #e54b76;"><strong>2013-2016 ·</strong></span> <span style="color:#727190;"><em>Magna Ipsum Amet</em></span><br>
+                        </div><div class="clear"></div>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="full-width ">
+                        <script>
+                            var aboutImage_speed = "500";
+                            var aboutImage_auto = "false";
+                            var aboutImage_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative img aboutImage">
+                            <a id="aboutImage_next" class="image_slider_next" href="#"></a>
+                            <div class="caroufredsel_wrapper">
+                                <ul id="aboutImage" class="image-slider slides">
+                                    <li><img src="demo-images/about_img_04.jpg" alt=""></li>
+                                    <li><img src="demo-images/about_img_05.jpg" alt=""></li>
+                                    <li><img src="demo-images/about_img_06.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <script>
+                            var team1_speed = "500";
+                            var team1_auto = "false";
+                            var team1_hover = "true";
+                        </script>
+                        <div class="image-slider-wrapper relative team team1">
+                            <a id="team1_next" class="image_slider_next" href="#"></a>
+                            <div class="caroufredsel_wrapper">
+                                <ul id="team1" class="image-slider slides">
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">Robert Williams</h4>
+                                            <p class="member-position">LEAD DESIGNER</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_01.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">John Doe</h4>
+                                            <p class="member-position">SEO MASTER</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_02.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+
+                                    <li>
+                                        <div class="member-content-holder">
+                                            <h4 class="member-name">John Doe</h4>
+                                            <p class="member-position">PSD GURU</p>
+                                            <div class="member-content">
+                                                Eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est lorem adipisicing elit, sed do eiusmod tempor polor sit amet consectetur.<br>
+                                            </div>
+                                        </div>
+                                        <div class="member-image-holder">
+                                            <img src="demo-images/about_img_03.jpg" alt="">
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>   <!-- end full-width div -->
+
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <!-- News -->
+        <div id="news" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="section-num">
+                        <span>
+                            04
+                        </span>
+                    </div>
+                    <h2 class="entry-title">Sendata</h2>
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class="blog-holder block center-relative">
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">01</div>
+                                <div class="info">
+                                    <div class="author vcard ">Robert Williams</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">BRANDING</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h3 class="entry-title">
+                                    <a href="#">Eiusmod tempor incididunt ut dolore magna labore eiusmod ipsum dolor</a>
+                                </h3>
+                                <div class="clear"></div>
+                            </article>
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">02</div>
+                                <div class="info">
+                                    <div class="author vcard ">Jim Davis</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">TECH</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h3 class="entry-title">
+                                    <a href="#">Incididunt ut dolore magna labore eiusmod lorem ipsum dolor sit</a>
+                                </h3>
+                                <div class="clear"></div>
+                            </article>
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">03</div>
+                                <div class="info">
+                                    <div class="author vcard ">Ann Peterson</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">CRAFTING</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h3 class="entry-title">
+                                    <a href="#">Labore eiusmod lorem ipsum dolor sit amet nunc labore incididunt ut dolore</a>
+                                </h3>
+                                <div class="clear"></div>
+                            </article>
+
+                            <article class="relative blog-item-holder center-relative">
+                                <div class="num">04</div>
+                                <div class="info">
+                                    <div class="author vcard ">Robert Williams</div>
+                                    <div class="cat-links">
+                                        <ul>
+                                            <li><a href="#">CRAFTING</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h3 class="entry-title">
+                                    <a href="#">Dolor sit amet nunc labore incididunt ut dolore magna labore eiusmod</a>
+                                </h3>
+                                <div class="clear"></div>
+                            </article>
+
+                            <div class="latest-post-bottom-text">
+                                <a href="#">GO TO BLOG</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="block content-1170 center-relative">
+                <div class="extra-content-left">
+                    <script> var text1_speed = "500";
+                        var text1_auto = "false";
+                        var text1_hover = "true";
+                    </script>
+                    <div class="text1 testimonial-slider-holder slider-holder">
+                        <div class="caroufredsel_wrapper">
+                            <ul id="text1" class="slides testimonial">
+                                <li>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text">The difference between a Designer and Developer, when it comes to design skills, is the difference between shooting a bullet and throwing it.</p>
+                                        <p class="testimonial-author">SCOTT HANSELMAN</p>
+                                    </div>
+                                    <div class="clear">
+                                    </div>
+                                </li>
+                                <li style="width: 500px;">
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text">To create anything–whether a short story or a magazine profile or a film or a sitcom–is to believe, if only momentarily, you are capable of magic.</p>
+                                        <p class="testimonial-author">TOM BISSEL</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="testimonial-content">
+                                        <p class="testimonial-text">As a profession, graphic designers have been shamefully remiss or ineffective about plying their craft for social or political betterment.</p>
+                                        <p class="testimonial-author">STEVEN HELLER</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a id="text1_next" class="carousel_text_next" href="#"></a>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Video -->
+        <div id="video" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="section-num">
+                        <span>
+                            05
+                        </span>
+                    </div>
+                    <h2 class="entry-title">GRADES</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title">Video</p>
+                        </div>
+                        <div class="one_half ">
+                            Polor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum <strong>dolor sit amet</strong> consectetur est adipisicing elit, sed do eiusmod tempor
+                        </div>
+                        <div class="one_half last ">
+                            <span style="color: #FFBA42;"><strong>2001-2003 ·</strong></span> <span style="color: #727190;"><em>Art Studio Lorem Donec</em></span><br>
+                            <span style="color: #FFBA42;"><strong>2003-2006 ·</strong></span> <span style="color: #727190;"><em>Per Set Web Site</em></span><br>
+                            <span style="color: #FFBA42;"><strong>2006-2010 ·</strong></span> <span style="color: #727190;"><em>Setera Donec EstNunc</em></span><br>
+                            <span style="color: #FFBA42;"><strong>2010-2013 ·</strong></span> <span style="color: #727190;"><em>Studio Labore Tempor</em></span><br>
+                            <span style="color: #FFBA42;"><strong>2013-2016 ·</strong></span> <span style="color: #727190;"><em>Magna Ipsum Amet</em></span><br>
+                        </div><div class="clear"></div>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="full-width ">
+                        <a class="video-popup-holder" href="https://vimeo.com/157276599" data-rel="prettyPhoto[gallery-video1]">
+                            <img class="thumb" src="demo-images/video_img.jpg" alt="">
+                            <img class="popup-play" src="images/icon_video.svg" alt="Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="extra-content-full-width">
+                <script>
+                    var fwslider1_speed = "500";
+                    var fwslider1_auto = "false";
+                    var fwslider1_hover = "true";
+                    var fwslider1_start = "0";
+                    var fwslider1_width = "400";
+                    var fwslider1_num = "5";
+                </script>
+                <div class="fwslider1 fw-image-slider-holder list_carousel relative">
+                    <div class="caroufredsel_wrapper">
+                        <ul id="fwslider1" class="fw-image-slider">
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_editing.png" alt="">
+                                <p class="fw-slide-text">Video Editing</p>
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_clear.png" alt="">
+                                <p class="fw-slide-text">Premium Cleer</p>
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_display.png" alt="">
+                                <p class="fw-slide-text">For All Displays</p>
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_time.png" alt="">
+                                <p class="fw-slide-text">Right On Time</p>
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_ideas.png" alt="">
+                                <p class="fw-slide-text">Innovative Ideas</p>
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_sound.png" alt="">
+                                <p class="fw-slide-text">Perfect Sound</p>
+                            </li>
+                            <li class="fw-slide">
+                                <img src="demo-images/icon_solution.png" alt="">
+                                <p class="fw-slide-text">3D Solution</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="fwslider1_fw_image_slide_pager" class="fw_carousel_pagination"></div>
+                </div>
+                <a id="fwslider1_fw_next" class="carousel_fw_next" href="#"></a>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <!-- Skills -->
+
+        <div id="skills" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder right">
+                    <div class="section-num">
+                        <span>06</span>
+                    </div>
+                    <h2 class="entry-title">YearBook</h2>
+                </div>
+                <div class="section-content-holder left">
+                    <div class="content-wrapper">
+                        <div class="content-title-holder">
+                            <p class="content-title">Skills</p>
+                        </div>
+                        <p>Fusce suscipit, orci eget lobortis sodales, velit nunc tristique metus, in tristique odio ante id sem. Etiam in quam et sapien bibendum mollis. Morbi eget velit eros, quis imperdiet arcusere perdan. Nunc lorem justo, pellentesque ac egestas quis.</p>
+                        <br>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:81%;">
+                                <div class="progress_bar_title" style="color: #55B286">HTML</div>
+                                <div class="progress_bar_percent_text" style="color: #55B286">81%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#32DB8A;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:93%;">
+                                <div class="progress_bar_title" style="color: #E3A536">CSS</div>
+                                <div class="progress_bar_percent_text" style="color: #E3A536">93%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#FFBB42;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:72%;">
+                                <div class="progress_bar_title" style="color: #B24564">PSD</div>
+                                <div class="progress_bar_percent_text" style="color: #B24564">72%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#E74C78;"></div>
+                            </div>
+                        </div>
+                        <div class="progress_bar ">
+                            <div class="progress_bar_field_holder" style="width:99%;">
+                                <div class="progress_bar_title" style="color: #468ac7">DESIGN</div>
+                                <div class="progress_bar_percent_text" style="color: #468ac7">99%</div>
+                                <div class="progress_bar_field_perecent" style="background-color:#4C9EE7;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="section">
+            <div class="block content-1170 center-relative">
+                <div class="section-title-holder left">
+                    <div class="section-num">
+                        <span>
+                            07
+                        </span>
+                    </div>
+                    <h2 class="entry-title">    Team</h2>
+                </div>
+                <div class="section-content-holder right">
+                    <div class="content-wrapper">
+                        <div class="one_half ">
+                            <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut dolore magna labore eiusmod. Lorem ipsum dolor sit amet consectetur est adipisicing elit, sed do eiusmod tempor.</p>
+                            <br>
+                            <p><strong><span style="color: #e64b77;">Incididunt ut dolore</span></strong> magna labore eiusmod. Dolor sit amet consectetur est adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <div class="one_half last">
+                            <div class="contact-form">
+                                <p><input id="name" type="text" name="your-name" placeholder="Name"></p>
+                                <p><input id="contact-email" type="email" name="your-email" placeholder="Email"></p>
+                                <p><input id="subject" type="text" name="your-subject" placeholder="Subject"></p>
+                                <p><textarea id="message" name="your-message" placeholder="Message"></textarea></p>
+                                <p><input type="submit" onClick="SendMail()" value="SEND"></p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="full-width">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4274.290564544589!2d-75.2952832049782!3d40.753669641460846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1444506658649" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer content-1170 center-relative">
+                <ul>
+                    <li class="copyright-footer">
+                        © 2018 All rights reserved. | Boxus Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </li>
+                    <li class="social-footer">
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-behance"></span></a>
+                        <a href="#"><span class="fa fa-dribbble"></span></a>
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-rss"></span></a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-    <div class="wrapper">
-        <div class="section section-header">
-            <div class="parallax pattern-image">
-                <img id="backg" src="./public/images/background1.jpeg" height="100%">
-                <!--                     <img src="/assets/img/header6.jpg"/> -->
-                <div class="container">
-                    <div class="content">
-                        <h1 ><font style="border: 4px; border-style: solid;">&nbspDev.Club&nbsp</font></h1>
-                        <h3>Software Development Club, IIT Delhi
-                            <h3>
-                                <div class="separator-container">
-                                    <div class="separator line-separator">∎</div>
-                                </div>
-                                <h2>We <span class="verb"></span> things</h2>
-                    </div>
-                </div>
-            </div>
-            <a href="" data-scroll="true" data-id="#uitools" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
-            </a>
-        </div>
-    </div>
-     <!--   <div class="section section-we-are-1" id="whoWeAre">
-            <div class="text-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="title" id="animationTest">
-                            <h2>About Us</h2>
-                            <div class="separator-container">
-                                <div class="separator line-separator">∎</div>
-                            </div>
-                            <p class="large">
-                                Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="" data-scroll="true" data-id="#uitools" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
-            </a>
-        </div>-->
-
-            <div class="section section-we-made-3" id="uitools" style="background: #bf634c;">
-               <div class="container">
-                    <div class="row">
-                        <div class="title add-animation">
-                            <h2>Our Projects</h2>
-                            <div class="separator-container">
-                                <div class="separator line-separator">∎</div>
-                            </div>
-                            <p style="color: black;">Check out some of our projects, made with ♥&nbsp;and a BIT of coffee<br><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-    <div class="row">
-        <div id="carouselControls" class="carousel vert slide col-md-6" data-ride="carousel" data-interval="5000" style="height: 350px;">
-            
-            <div class="carousel-inner" style="height: 350px;">
-                <div class="carousel-item active">
-                    
-                                    <a target="_blank"  href="https://aman71197.github.io/CampusBot/">
-                                        <img src="./public/images/placeholder.jpg" width="100%">
-                                    </a>
-                </div>
-            
-                <div class="carousel-item">
-                    
-                                    <a target="_blank" class="img-class" href="http://study.devclub.iitd.ac.in">
-                                        <img src="./public/images/placeholder.jpg" width="100%">
-                 </div>              
-                <div class="carousel-item">
-                   
-                                    <a target="_blank" class="img-class" href="http://fs.devclub.iitd.ac.in">
-                                        <img src="./public/images/placeholder.jpg" width="100%">                                    
-                                    </a>
-                </div>
-                <div class="carousel-item">
-                   
-                                    <a target="_blank" class="img-class" href="https://game.devclub.iitd.ac.in">
-                                       <img src="./public/images/placeholder.jpg" width="100%">
-                                    </a>
-                                
-                </div>
-                <div class="carousel-item">
-                  
-                                    <a target="_blank" class="img-class" href="https://github.com/ozym4nd145/FlashSubs">
-                                       <img src="./public/images/placeholder.jpg" width="100%">
-                                    </a>
-                             
-                </div>
-            </div>
-        </div>
-        <div id="carouselControlsSimple" class="carousel slide col-md-6" data-ride="carousel" data-interval="5000" style="height: 350px;"> 
-            <div class="carousel-inner" style="height:350px;">
-                <div class="carousel-item active">
-                    <div class="content">
-
-                                        <h3>Campus Bot</h3>
-                                        <p style="font-size:105%;">Campus Bot is a chat bot that was born at IIT Delhi. Campus Bot is one stop solution for all the campus needs that students and the faculty in the campus can use. It has been integrated into numerous chatting platforms.
-                                            Presently the bot has been trained for IITD but it can be later on trained for any campus by just modifying the format of the entry number i.e the Admission number.</p>
-                                        <a target="_blank" href="https://aman71197.github.io/CampusBot/" class="btn btn-round btn-fill">Details about Project</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/CampusBot/" class="btn btn-round btn-fill">GitHub Repository</a>
-
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
-
-                                        <h3>Study Portal</h3>
-                                        <p style="font-size:105%;">We bring to you one of its kind crowd contributed portal. For the students, by the students and of the students. It acts as a one stop platform for all the learning that you will need. Share, learn and go. Presenting the study portal (Can be accessed only in internal IITD network)</p>
-                                        <a target="_blank" href="http://study.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Portal</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/BookShelf" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
-
-                                        <h3>SenData</h3>
-                                        <p style="font-size:105%;">Send large files seamlessly through the internet, without the hassle of uploading it on a server first. A simple tool that gets the job done. Powered by WebRTC.</p>
-                                        <a target="_blank" href="http://fs.devclub.iitd.ac.in" class="btn btn-round btn-fill">Access the Website</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/SenData" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
-
-                                        <h3>Tank Assault</h3>
-                                        <p style="font-size:105%;">Love solving mazes? Or love shooting? We bring for you an awesome combination of both which will leave you thrilled. Come and join us. Compete with your friends or with our awesome A.I.(Model under Training)</p>
-                                        <a target="_blank" href="https://game.devclub.iitd.ac.in" class="btn btn-round btn-fill">Let's Play!</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/TankAssault2" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content">
-
-                                        <h3>Flash Subs</h3>
-                                        <p style="font-size:105%;">Flash subs is a python program that manages our media library i.e. it can automatically download subtitles and other information(Correct Title, IMDB rating, Plot Summary etc.) for movies and TV Series in our computer.</p>
-                                        <p style="font-size:105%;">Subtitles are searched using- 1. Subdb database (hash) 2. Opensubtitles database (hash) 3. Opensubtitles database (name) 4. Bing (name) Thus, the probability of finding the subtitles become quite high.</p>
-                                        <a target="_blank" href="https://github.com/ozym4nd145/FlashSubs" class="btn btn-round btn-fill">GitHub Repository</a>
-                                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
-
-                <!--<div class="container">
-                    
-                        <div class="row">
-                            
-
-                                
-
-                            </div>
-                            <div class="col-md-8">
-                                <div class="over-area over-area-sm color-1">
-                                    
-                                    <a href="" data-scroll="true" data-id="#uitools1" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
-            </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    
-                </div>
-            </div>
-                    
-                     <div class="section section-we-made-3" id="uitools1"style="background: #bf634c;">
-                        <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 ">
-
-                                
-
-                            </div>
-                            <div class="col-md-8">
-                                <div class="over-area over-area-sm color-1">
-                                    ><a href="" data-scroll="true" data-id="#uitools2" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down" style="color: black;"></i>
-            </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        <div class="section section-we-made-3" id="uitools2"style="background: #bf634c;">
-                        <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 ">
-
-                                
-
-                            </div>
-                            <div class="col-md-8">
-                                <div class="over-area over-area-sm color-1">
-                                    <a href="" data-scroll="true" data-id="#uitools3" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down"></i>
-            </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    <div class="section section-we-made-3" id="uitools3"style="background: #bf634c;">
-                        <div class="container">
-                    
-                        <div class="row">
-                            <div class="col-md-4 ">
-
-                                
-
-                            </div>
-                            <div class="col-md-8">
-                                <div class="over-area over-area-sm color-1">
-                                    <a href="" data-scroll="true" data-id="#uitools4" class="scroll-arrow hidden-xs hidden-sm">
-                <i class="fa fa-angle-down" style="color: black;"></i>
-            </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section section-we-made-3" id="uitools4"style="background: #bf634c;">
-                        <div class="container">
-                            <div class="row">
-                            <div class="col-md-4 ">
-
-                                
-
-                            </div>
-                            <div class="col-md-8">
-                                <div class="over-area over-area-sm color-1">
-                                    
-                                </div>
-
-                            </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-       <div class="section section-team-2" id="team">
-                <div class="container">
-                    <div class="text-area">
-                        <div class="title add-animation">
-                            <h2>Meet our Team</h2>
-                            <div class="separator-container">
-                                <div class="separator line-separator">∎</div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="container">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 300px;">
-    
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    
-    <div class="carousel-inner">
-      <div class="item active">
-            <div class="team">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-1">
-                                    <img class="img-circle" src="./public/images/aman.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Aman Agrawal</h3>
-                                        <br>
-                                        <p class="small-text">Senior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/aman71197" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/aman71197" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a> </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-2">
-                                    <img class="img-circle" src="./public/images/arpan.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Arpan Mangal</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate</p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/arpan.mangal.50" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/ArpanMangal" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-3">
-                                    <img class="img-circle" src="./public/images/arsh.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Arshdeep Singh</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons ">
-                                        <a target="_blank" href="https://www.facebook.com/4rshdeep" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://github.com/4rshdeep" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a> </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-4">
-                                    <img class="img-circle" src="./public/images/atishya.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Atishya Jain</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/atishya.jain.395" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/Atishya-jain" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-      </div>
-
-      <div class="item">
-            <div class="team">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-1">
-                                    <img class="img-circle" src="./public/images/Ayush.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Ayush Patel</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate</p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/ayush.patel.376695" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://github.com/Ayush21298" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                  <div class="member add-animation animation-1">
-                                      <img class="img-circle" src="./public/images/div.jpg">
-                                      <div class="description">
-                                          <h3 class="big-text">Divyanshu Saxena</h3>
-                                          <br>
-                                          <p class="small-text">Junior Undergraduate
-                                          </p>
-                                      </div>
-                                      <div class="social-buttons hidden-xs">
-                                          <a target="_blank" href="https://www.facebook.com/divyanshu.saxena.96" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                          <a target="_blank" href="https://www.github.com/DivyanshuSaxena" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                      </div>
-                                  </div>
-                              </div>
-
-                              <div class="col-md-3">
-                                  <div class="member add-animation animation-2">
-                                      <img class="img-circle" src="./public/images/mayank.png">
-                                      <div class="description">
-                                          <h3 class="big-text">Mayank Singh Chauhan</h3>
-                                          <br>
-                                          <p class="small-text">Junior Undergraduate</p>
-                                      </div>
-                                      <div class="social-buttons hidden-xs">
-                                          <a target="_blank" href="https://www.facebook.com/mayank.singh.7121614" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                          <a target="_blank" href="https://www.github.com/mayanksingh2298" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="member add-animation animation-2">
-                                      <img class="img-circle" src="./public/images/shashwat.jpg">
-                                      <div class="description">
-                                          <h3 class="big-text">Shashwat Shivam</h3>
-                                          <br>
-                                          <p class="small-text">Junior Undergraduate
-                                          </p>
-                                      </div>
-
-                                      <div class="social-buttons hidden-xs">
-                                          <a target="_blank" href="https://www.facebook.com/ankurshaswat" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                          <a target="_blank" href="https://github.com/ankurshaswat/" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                      </div>
-                                  </div>
-                              </div>
-
-                        </div>
-                    </div>
-      </div>
-    
-      <div class="item">
-            <div class="team">
-                        <div class="row">
-                          <div class="col-md-3">
-                                <div class="member add-animation animation-1">
-                                    <img class="img-circle" src="./public/images/siddhant.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Siddhant Bhakar</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate</p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/siddhant.bhakar" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/Siddhant24" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-3">
-                                    <img class="img-circle" src="./public/images/sushant.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Sushant Rathi</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/sushant.rathi.12" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/sushant21" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
+        </footer>
 
 
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-2">
-                                    <img class="img-circle" src="./public/images/suyash.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Suyash Agrawal</h3>
-                                        <br>
-                                        <p class="small-text">Senior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/suyash101297" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/ozym4nd145" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="member add-animation animation-4">
-                                    <img class="img-circle" src="./public/images/udit.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Udit Jain</h3>
-                                        <br>
-                                        <p class="small-text">Junior Undergraduate</p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/uditj01" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/udit01" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-      </div>
-       
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-    </div>
-  </div>
-</div>
-
-                    
-                </div>
-            </div>
-
-            <footer class="footer footer-color-black"">
-                <div class="container">
-                    <nav class="pull-left navbar-burger">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="#">
-                                Home
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="social-area pull-right">
-                        <a class="btn btn-social btn-facebook btn-simple" target="_blank" href="https://www.facebook.com/tech.iitd/">
-                            <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a class="btn btn-social btn-github btn-simple" target="_blank" href="https://github.com/devclub-iitd">
-                            <i class="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="copyright">
-                        © 2018 <a target="_blank" href="#"> Dev Club</a>
-                    </div>
-                </div>
-            </footer>
-        </div> -->
-        <!-- end wrapper -->
-
-        <!--   core js files    -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-        <!--   file for adding vertical points where we activate the elements animation   -->
-        <script type="text/javascript" src="./js/libs/jquery.waypoints.min.js"></script>
-        <!--  js library for devices recognition -->
-        <script type="text/javascript" src="./js/libs/modernizr.js"></script>
-        <!--   file where we handle all the script from the Rubik page   -->
-        <script type="text/javascript" src="./js/libs/rubick_pres.js"></script>
-        <!-- js library for typing animation -->
-        <script type="text/javascript" src="./js/libs/typed.js"></script>
-        <!-- script for typing animation -->
-        <script type="text/javascript" src="./js/typing_animation.js"></script>
-        <script type="text/javascript">
-        $('.carousel-control-next').click(function() {
-        $("#carouselControlsSimple").carousel("next");
-        $("#carouselControls").carousel("next");
-            });
-
-        $('.carousel-control-prev').click(function() {
-        $("#carouselControlsSimple").carousel("prev");
-        $("#carouselControls").carousel("prev");
-        });</script>
-
-</body>
-
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.sticky.js'></script>
+        <script type='text/javascript' src='js/jquery.dryMenu.js'></script>
+        <script type='text/javascript' src='js/isotope.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
 </html>
