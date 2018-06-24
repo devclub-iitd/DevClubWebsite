@@ -49,10 +49,8 @@ body a:hover
 
 .content-1170 img
 {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    width: 120px;
+    height: 120px;
 }
 
 .full-width
@@ -157,7 +155,7 @@ body a:hover
 
 .section-num span
 {    
-    margin-left: -64px;
+    
     color: #55B286;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -170,13 +168,9 @@ body a:hover
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 109px;
-    width: 245px;
-    word-break: break-all;
-    line-height: 83px;
-    margin-top: 10px;
+    font-size: 65px;
     color: white;
-    margin-left: 115px;
+    margin-left: 20px;
     text-transform: uppercase;
     letter-spacing: -3px;
     padding: 0;
@@ -258,7 +252,7 @@ body a:hover
 .intro-page 
 {
     padding-bottom: 170px;
-    min-height: calc(100vh - 170px);
+    min-height: calc(100vh);
     background-color: #221c5a; 
     background-image:url(public_images/background1.jpeg); 
     background-repeat: repeat; 
@@ -365,7 +359,7 @@ h1.big-title
 #portfolio
 {
     background-color: #221C5A; 
-    background-image: url("demo-images/background_img_02.jpg"); 
+    
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
@@ -562,7 +556,7 @@ div.pp_default .pp_loaderIcon
 #about
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_03.jpg"); 
+    
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
@@ -637,7 +631,7 @@ div.pp_default .pp_loaderIcon
 #news
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_04.jpg"); 
+    
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
@@ -748,7 +742,7 @@ div.pp_default .pp_loaderIcon
 #video
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_06.jpg"); 
+    
     background-repeat: repeat-x; 
     background-position: center center; 
     background-size: auto; 
@@ -808,7 +802,7 @@ a.video-popup-holder:hover img.popup-play
 #skills
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/item_background_01.jpg"); 
+   
     background-repeat: no-repeat; 
     background-position: left top; 
     background-size: 100%; 
@@ -886,7 +880,7 @@ a.video-popup-holder:hover img.popup-play
 #contact
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_05b.jpg"); 
+    
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto; 
@@ -1107,7 +1101,7 @@ footer
 #portfolio-1
 {
     background-color: #221c5a;
-    background-image:url("demo-images/background_img_05b.jpg"); 
+    
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto; 
@@ -1117,7 +1111,7 @@ footer
 {
 
     background-color: #221c5a;
-    background-image: url(demo-images/item_background_01.jpg);
+    
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% auto;
@@ -1231,7 +1225,7 @@ footer
     .section-num span 
     {
         margin-left: -35px;    
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .section-title-holder h2
