@@ -68,7 +68,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #221C5A;
+    background-color: #32db8a;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -333,7 +333,6 @@ h1.big-title
 .service-holder 
 {
     display: inline-block;
-    width: 335px;
 }
 
 .service-holder img 
@@ -345,8 +344,7 @@ h1.big-title
 
 .service-content-holder 
 {
-    display: inline-block;
-    width: 240px;
+   
     margin-top: 55px;
     margin-left: 5px;
 }
