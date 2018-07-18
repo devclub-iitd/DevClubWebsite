@@ -20,7 +20,8 @@
         <link rel="stylesheet" type="text/css"  href='style.css' />
         <link rel="stylesheet" type="text/css"  href='animation_styles.css' />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
+		<link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.1/typeit.js"></script>
 
         <!--[if lt IE 9]>
                 <script src="js/html5.js"></script>
@@ -65,7 +66,7 @@
                 <h1 class="big-title"><font style="border: 4px; border-style: solid;">&nbspDEV.CLUB&nbsp</font></h1>
                 <br>
                 <p class="title-desc">Software Development Club, IIT Delhi</p>
-                <h2>We <span class="verb"></span> things</h2>
+                <h2 class="typed-container"><span class="typed">We <span id="verb"></span>things.</span></h2>
             </div>
         </div>
 
@@ -541,5 +542,17 @@
         <script type='text/javascript' src='js/main.js'></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
         <script type="text/javascript" src='js/typing_animation.js'></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" /> -->
+        <script type="text/javascript">
+        	new TypeIt('#verb', {
+			    strings: ["develop", "code", "invent", "question", "make"],
+			    speed: 90,
+			    breakLines: false,
+			    loop: true,
+			    autoStart: true,
+			    nextStringDelay: 1200,
+			    deleteSpeed: 50
+			});
+        </script>
     </body>
 </html>

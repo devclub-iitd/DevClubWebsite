@@ -569,3 +569,12 @@ a img.aligncenter
     width: auto;
     z-index: 100000; /* Above WP toolbar. */
 }
+
+.typed {
+    color: #000;
+    background-color: rgba(100,100,100,0.5);
+    width: 80%;
+    margin: auto;
+    min-width: 300px;
+    font-family: 'Ubuntu', sans-serif;
+}
