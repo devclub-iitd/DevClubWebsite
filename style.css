@@ -1186,6 +1186,10 @@ footer
     line-height: 30px;
 }
 
+.element-item img {
+    width: 100% !important;
+}
+
 /* END SINGLE PORTFOLIO */
 
 
@@ -1274,7 +1278,7 @@ footer
 
     .grid-item.p_one, .grid
     {
-        width: 710px;       
+        width: 670px;       
     }    
 
     .grid-sizer, .grid-item, .grid-item.p_one_half
