@@ -1694,10 +1694,10 @@ footer
     }
 }
 
-@media screen and (max-width: 1270px and min-width: 870px) {
-    
+@media screen and (max-width: 1270px) and (min-width: 970px) {
+
     .entry-title
     {
-        font-size: 2.5vw !important;
+        font-size: 3.25vw !important;
     }
 }
