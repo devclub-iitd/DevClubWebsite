@@ -580,5 +580,5 @@ a img.aligncenter
 }
 
 #verb {
-    text-decoration: underline currentColor;
+    text-decoration: underline currentColor dashed;
 }
