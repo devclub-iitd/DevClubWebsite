@@ -578,3 +578,7 @@ a img.aligncenter
     min-width: 300px;
     font-family: 'Ubuntu', sans-serif;
 }
+
+#verb {
+    text-decoration: underline currentColor;
+}
