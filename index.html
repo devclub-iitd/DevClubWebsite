@@ -545,18 +545,30 @@
         <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
         <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
         <script type='text/javascript' src='js/main.js'></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
-        <script type="text/javascript" src='js/typing_animation.js'></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" /> -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" ></script>
         <script type="text/javascript">
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                  color += letters[Math.floor(Math.random() * 16)];
+                }
+                console.log(color);
+                return color;
+            }
+            console.log("Check.");
+            var color = getRandomColor();
         	new TypeIt('#verb', {
-			    strings: ["develop", "code", "invent", "question", "make"],
+                strings: ["develop", "code", "invent", "question", "make"],
 			    speed: 90,
 			    breakLines: false,
-			    loop: true,
+                loop: true,
+                beforeString: (step, queue, instance) => {
+                    document.getElementById("verb").style.color = getRandomColor();
+                },
 			    autoStart: true,
 			    nextStringDelay: 1200,
-			    deleteSpeed: 50
+                deleteSpeed: 50,
 			});
         </script>
     </body>
