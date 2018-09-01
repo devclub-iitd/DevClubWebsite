@@ -426,10 +426,23 @@ h1.big-title
     cursor: pointer;
 }
 
+@media screen and (min-width: 1000px) {
+    .grid
+    {
+        margin: 0 auto 0 -20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .grid
+    {
+        margin: 0 auto;
+    }
+}
+
 .grid 
 {
-    width: 760px;
-    margin: 0 auto;
+    width: 800px;
     overflow: hidden;
     position: relative;
     display: block;
