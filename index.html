@@ -24,6 +24,8 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/custom.css' />
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
         <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
         <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
@@ -65,14 +67,33 @@
 
         <!-- Home -->
         <div id="home" class="section intro-page">
-            <svg viewBox="0 0 200 80" class="devclub">
-                <text stroke-dasharray="200 200" fill="none" stroke="#000" dy="1em" style="font-family:Ubuntu">
-                    DevClub
-                    <animate dur="10s" repeatCount="indefinite"
-                    attributeName="stroke-dashoffset"
-                    values="200" />
-                <text>
-            </svg>
+            <div class="container">
+                <div class="row svg-row wow fadeIn" data-wow-delay="0.2s">
+                    <div class="col-md-6"></div>
+                    <svg viewBox="0 0 66 22" class="devclub col-md-6">
+                        <defs>
+                            <linearGradient id="fire">
+                                <stop stop-color="#044a91" offset="0%"/>
+                                <stop stop-color="#003153" offset="100%"/>
+                            </linearGradient>
+                        </defs>
+                        <text stroke-dasharray="100" fill="none" stroke="url(#fire)" dy="1em" style="font-family:Ubuntu" stroke-width="0.5">
+                            DevClub
+                            <animate dur="8s"
+                            attributeName="stroke-dashoffset"
+                            values="100;0" />
+                            <!-- <animate id="anim1" attributeName="stroke-dashoffset" from="-50" to="50" dur="2s" fill="freeze"/>
+                            <animate id="anim2" attributeName="stroke-dashoffset" from="50" to="-50" dur="2s" begin="anim1.end+3ss" fill="freeze"/> -->
+                        <text>
+                    </svg>
+                </div>
+                <div class="row wow fadeIn" data-wow-delay="1s">
+                    <p class="title-desc col-md-6">Software Development Club, IIT Delhi</p><br>
+                </div>
+                <div class="row wow fadeIn" data-wow-delay="1.5s">
+                    <h2 class="typed-container"><span class="typed">We <span id="verb"></span>things.</span></h2>    
+                </div>
+            </div>
         </div>
 
         <!-- <div id="home" class="section intro-page">
@@ -96,7 +117,7 @@
                     <li class="social-footer">
                         <a href="https://github.com/devclub-iitd"><span class="fa fa-github "></span></a>
                         <a href="https://www.facebook.com/tech.iitd/"><span class="fa fa-facebook"></span></a>
-                        <a href="mailto: devclub.iitd@gmail.com"><span class="fa fa-envelope fa-1.5x"></span></a>
+                        <a href="mailto: devclub.iitd@gmail.com"><span class="fa fa-envelope"></span></a>
                     </li>
                 </ul>
             </div>
@@ -117,6 +138,10 @@
         <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
         <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
         <script type='text/javascript' src='js/main.js'></script>
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" ></script>
         <script type="text/javascript">
             function getRandomColor() {

@@ -1,0 +1,28 @@
+.devclub
+{
+    position: relative;
+    float: right;
+}
+
+.typed {
+    /* color: #000; */
+    width: 80%;
+    margin: auto;
+    min-width: 300px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#verb {
+    text-decoration: underline currentColor dashed;
+}
+
+.svg-row {
+    height: 50vh;
+}
+
+.intro-page {
+    background: -webkit-linear-gradient(70deg, #fff 20%, rgba(0,0,0,0) 20%), -webkit-linear-gradient(30deg, #1A9CCC 60%, #0267c1 60%);
+    background: -o-linear-gradient(70deg, #fff  20%, rgba(0,0,0,0) 20%), -o-linear-gradient(30deg, #1A9CCC 60%, #0267c1 60%);
+    background: -moz-linear-gradient(70deg, #fff  20%, rgba(0,0,0,0) 20%), -moz-linear-gradient(30deg, #1A9CCC 60%, #0267c1 60%);
+    background: linear-gradient(70deg, #fff  20%, rgba(0,0,0,0) 0%), linear-gradient(30deg, #1A9CCC 60%, #0267c1 60%);
+}
