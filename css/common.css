@@ -569,16 +569,3 @@ a img.aligncenter
     width: auto;
     z-index: 100000; /* Above WP toolbar. */
 }
-
-.typed {
-    /* color: #000; */
-    background-color: rgba(200,200,200,0.5);
-    width: 80%;
-    margin: auto;
-    min-width: 300px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#verb {
-    text-decoration: underline currentColor dashed;
-}

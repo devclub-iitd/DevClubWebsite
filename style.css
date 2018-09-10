@@ -66,7 +66,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #32db8a;
+    background-color: #054a91;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -251,13 +251,7 @@ body a:hover
 
 .intro-page 
 {
-    padding-bottom: 170px;
-    min-height: calc(100vh);
-    background-color: #221c5a; 
-    background-image:url(public_images/background1.jpeg); 
-    background-repeat: repeat; 
-    background-position: center top; 
-    background-size: cover;
+    height: 85vh;
     z-index: 10;
 }
 
@@ -288,11 +282,10 @@ h1.big-title
 
 .title-desc
 {
-    font-family: 'PT Serif', serif;
-    font-size: 40px;
-    line-height: 26px; 
-    margin: 0 auto;
-    color: #fff;
+    font-family: 'Lato';
+    font-size: 24px;
+    line-height: 26px;
+    padding: 0px !important;
 }
 
 .page-template-page-home .intro-page footer
@@ -1068,20 +1061,26 @@ span.contact-form-not-valid-tip
 
 
 /* FOOTER */
-
+/* 
 footer
 {
     background-color: #221C5A;
-}
+} */
 
 .footer
 {
+    height: 5vh;
     font-size: 16px;
     line-height: 36px;
     clear: both;
     color: #5b5881;
     text-align: center;    
-    padding: 100px 0;
+    padding: 10px 0;
+}
+
+.footer > ul
+{
+    margin: 0px !important;
 }
 
 .footer-left, .footer-right
