@@ -1,0 +1,235 @@
+<!-- Team -->
+    <div id="team" class="section">
+        <div class="block content-1170 center-relative">
+            <div class="section-title-holder left">
+                <div class="section-num">
+                    <span>
+                        07
+                    </span>
+                </div>
+                <h2 class="entry-title">Team</h2>
+            </div>
+            <div class="section-content-holder right">
+                <div class="content-wrapper">
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-1">
+                                    <img class="rounded-circle" src="public_images/aman.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Aman<br>Agrawal</h3>
+                                        <p class="small-text">Senior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/aman71197" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/aman71197" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a> </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-2">
+                                    <img class="rounded-circle" src="public_images/arpan.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Arpan<br>Mangal</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/arpan.mangal.50" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/ArpanMangal" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-3">
+                                    <img class="rounded-circle" src="public_images/arsh.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Arshdeep<br>Singh</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons ">
+                                        <a target="_blank" href="https://www.facebook.com/4rshdeep" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://github.com/4rshdeep" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a> </div>
+                                </div>
+                                <br>
+                            </div>
+
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-4">
+                                    <img class="rounded-circle" src="public_images/atishya.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Atishya<br>Jain</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/atishya.jain.395" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/Atishya-jain" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-1">
+                                    <img class="rounded-circle" src="public_images/Ayush.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Ayush<br>Patel</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/ayush.patel.376695" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://github.com/Ayush21298" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-1">
+                                    <img class="rounded-circle" src="public_images/div.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Divyanshu<br>Saxena</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/divyanshu.saxena.96" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/DivyanshuSaxena" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-2">
+                                    <img class="rounded-circle" src="public_images/mayank.png">
+                                    <div class="description">
+                                        <h3 class="big-text">Mayank<br>Chauhan</h3>
+                                        <p class="small-text">Junior Undergraduate</p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/mayank.singh.7121614" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/mayanksingh2298" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-2">
+                                    <img class="rounded-circle" src="public_images/shashwat.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Shashwat<br>Shivam</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/ankurshaswat" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://github.com/ankurshaswat/" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-1">
+                                    <img class="rounded-circle" src="public_images/siddhant.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Siddhant<br>Bhakar</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/siddhant.bhakar" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/Siddhant24" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-3">
+                                    <img class="rounded-circle" src="public_images/sushant.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Sushant<br>Rathi</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/sushant.rathi.12" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/sushant21" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-2">
+                                    <img class="rounded-circle" src="public_images/suyash.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Suyash<br>Agrawal</h3>
+                                        <p class="small-text">Senior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/suyash101297" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/ozym4nd145" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="member add-animation animation-4">
+                                    <img class="rounded-circle" src="public_images/udit.jpg">
+                                    <div class="description">
+                                        <h3 class="big-text">Udit<br>Jain</h3>
+                                        <p class="small-text">Junior Undergraduate
+                                        </p>
+                                    </div>
+                                    <div class="social-buttons hidden-xs">
+                                        <a target="_blank" href="https://www.facebook.com/uditj01" class="btn btn-social btn-facebook btn-simple"><i
+                                                class="fa fa-facebook-square"></i></a>
+                                        <a target="_blank" href="https://www.github.com/udit01" class="btn btn-social btn-linkedin btn-simple"><i
+                                                class="fa fa-github"></i></a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
