@@ -876,7 +876,9 @@
 
     .main-menu ul 
     {
-        width: 12em;
+		width: 12em;
+		list-style: none;
+		
     }
 
     .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active
@@ -898,3 +900,49 @@
     } */
 
 /* END TOP MENU */
+/* FOOTER */
+/* 
+footer
+{
+    background-color: #221C5A;
+} */
+
+.footer
+{
+    height: 5vh;
+    font-size: 16px;
+    line-height: 36px;
+    clear: both;
+    color: #5b5881;
+    text-align: center;    
+    padding: 10px 0;
+}
+
+.footer > ul
+{
+	margin: 0px !important;
+	list-style: none;
+}
+
+.footer-left, .footer-right
+{
+    width: 810px;
+}
+
+.footer-right
+{
+    margin-left: 370px;
+}
+
+.footer a
+{
+    color: #5b5881;
+}
+
+.social-footer a 
+{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* END FOOTER */
