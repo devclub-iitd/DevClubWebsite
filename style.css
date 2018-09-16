@@ -1717,3 +1717,20 @@ footer
         font-size: 3.25vw !important;
     }
 }
+.left {
+    position: relative;
+    float: left;
+  }
+  
+  .right {
+    position: relative;
+    float: right;
+  }
+
+@media screen and (max-width: 992px) {
+    .rev {
+        display: flex;
+      flex-direction: column-reverse;
+      flex-basis:100%;
+    }
+  }
