@@ -1729,8 +1729,7 @@ footer
 
 @media screen and (max-width: 992px) {
     .rev {
-        display: flex;
+        /* display: flex; */
       flex-direction: column-reverse;
-      flex-basis:100%;
     }
   }
