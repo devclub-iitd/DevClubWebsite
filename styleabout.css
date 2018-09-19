@@ -260,5 +260,6 @@ section.clients-home .clients-logos .client-logos-repeater img {
   color: #fff;
 }
 .story-section {
-  height: 55vh;
+  background: #eee !important;
+  height: 54.5vh;
 }

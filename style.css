@@ -1061,11 +1061,12 @@ span.contact-form-not-valid-tip
 
 
 /* FOOTER */
-/* 
+
 footer
 {
-    background-color: #221C5A;
-} */
+    background: #eee !important;
+    padding: 1vh;
+}
 
 .footer
 {

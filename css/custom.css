@@ -22,10 +22,10 @@
 
 .intro-page {
     color: #fff;
-    background: -webkit-linear-gradient(-70deg, #fff 10%, rgba(0, 0, 0, 0) 75%), url('../public_images/background1.jpeg');
-    background: -o-linear-gradient(-70deg, #fff 10%, rgba(0, 0, 0, 0) 75%), url('../public_images/background1.jpeg');
-    background: -moz-linear-gradient(-70deg, #fff 10%, rgba(0, 0, 0, 0) 75%), url('../public_images/background1.jpeg');
-    background: linear-gradient(-70deg, #fff 10%, rgba(0, 0, 0, 0) 75%), url('../public_images/background1.jpeg');
+    background: -webkit-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+    background: -o-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+    background: -moz-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+    background: linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
     background-size: cover;
     background-position: bottom;
     /* text-align: right; */
