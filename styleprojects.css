@@ -23,6 +23,15 @@
 .projects-body p {
     font-size: 1em;
 }
+.section-title {
+    text-align: center;
+    font-family: Ubuntu; 
+    color: #007b5e;  
+    text-transform: uppercase;
+}
+body {
+    background: #eee !important;
+}
 @media screen and (max-width: 992px) {
     .projects-heading-mob {
         display: block;
