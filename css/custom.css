@@ -20,17 +20,6 @@
     height: 50vh;
 }
 
-.intro-page {
-    color: #fff;
-    background: -webkit-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
-    background: -o-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
-    background: -moz-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
-    background: linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
-    background-size: cover;
-    background-position: bottom;
-    /* text-align: right; */
-}
-
 .develop {
     color: #ec5f5c;
 }
@@ -38,11 +27,53 @@
     color: #f8aa44;
 }
 .make {
-    color:#9b59b6;
+    color: #202088;;
 }
 .invent {
     color: #3498db;
 }
 .question {
     color: #1abc9c;
+}
+
+@media screen and (min-width: 768px) {
+    .title-desc {
+        font-size: 2em !important; 
+    }
+    .intro-page {
+        color: #fff;
+        background: -webkit-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background: -o-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background: -moz-linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background: linear-gradient(-80deg, #eee 10%, rgba(0, 0, 0, 0) 85%), url('../public_images/background1.jpeg');
+        background-size: cover;
+        background-position: bottom;
+        /* text-align: right; */
+    }
+    linearGradient .start-stop {
+        stop-color: #050566;
+    }
+    linearGradient .end-stop {
+        stop-color: #050566;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-desc {
+        font-size: 1.6em !important;
+    }
+    .centre-mob {
+        margin: auto !important;
+    }
+    .intro-page {
+        color: #fff;
+        background: url('../public_images/background1.jpeg');
+        background-position: left;
+    }
+    linearGradient .start-stop {
+        stop-color: #cfced3;
+    }
+    linearGradient .end-stop {
+        stop-color: #cfced3;
+    }
 }
