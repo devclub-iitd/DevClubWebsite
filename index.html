@@ -168,18 +168,18 @@
             console.log(color);
             return color;
         }
-        console.log("Check.");
         var color = getRandomColor();
         new TypeIt('#verb', {
-            strings: ["DEVELOP", "CODE", "INVENT", "QUESTION", "MAKE"],
+            strings:    ["<span class='develop'>DEVELOP</span>", 
+                        "<span class='code'>CODE</span>", 
+                        "<span class='invent'>INVENT</span>", 
+                        "<span class='question'>QUESTION</span>", 
+                        "<span class='make'>MAKE</span>"],
             speed: 90,
             breakLines: false,
             loop: true,
-            beforeString: (step, queue, instance) => {
-                document.getElementById("verb").style.color = getRandomColor();
-            },
             autoStart: true,
-            nextStringDelay: 1200,
+            nextStringDelay: 500,
             deleteSpeed: 50,
         });
     </script>
