@@ -263,3 +263,6 @@ section.clients-home .clients-logos .client-logos-repeater img {
   background: #eee !important;
   height: 54.5vh;
 }
+.story-section h2 {
+  font-size: 2em;
+}

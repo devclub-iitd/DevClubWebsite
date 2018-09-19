@@ -77,7 +77,7 @@
             <div class="container">
                 <div class="row product-title-info">
                     <div class="col-md-12">
-                        <h1 style="font-family:Ubuntu">
+                        <h1 style="font-family:Ubuntu; font-size:3.5em;">
                             About Us
                         </h1>
                     </div>
@@ -133,31 +133,6 @@
         <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
         <script type='text/javascript' src='js/main.js'></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
-        <script type="text/javascript">
-            function getRandomColor() {
-                var letters = '0123456789ABCDEF';
-                var color = '#';
-                for (var i = 0; i < 6; i++) {
-                    color += letters[Math.floor(Math.random() * 16)];
-                }
-                console.log(color);
-                return color;
-            }
-            console.log("Check.");
-            var color = getRandomColor();
-            new TypeIt('#verb', {
-                strings: ["develop", "code", "invent", "question", "make"],
-                speed: 90,
-                breakLines: false,
-                loop: true,
-                beforeString: (step, queue, instance) => {
-                    document.getElementById("verb").style.color = getRandomColor();
-                },
-                autoStart: true,
-                nextStringDelay: 1200,
-                deleteSpeed: 50,
-            });
-        </script>
 </body>
 
 </html>

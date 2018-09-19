@@ -32,6 +32,9 @@
 body {
     background: #eee !important;
 }
+.projects-heading-mob h1 {
+    font-size: 1.75em;
+}
 @media screen and (max-width: 992px) {
     .projects-heading-mob {
         display: block;

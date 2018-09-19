@@ -1099,6 +1099,11 @@ footer
     color: #5b5881;
 }
 
+.social-footer
+{
+    background: #eee !important;
+}
+
 .social-footer a 
 {
     margin: 0 10px;
