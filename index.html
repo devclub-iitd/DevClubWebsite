@@ -1,572 +1,178 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-    <head>
-        <title>Dev Club</title>
-        <meta property="og:title" content="Dev Club" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://devclub-iitd.github.io/DevClubWebsite/" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/devclub-iitd/devClubWebsite/master/public/images/devclub.png" />
-        <meta property="og:description" content="Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus." />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84158236-4"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'UA-84158236-4');
-        </script>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <title>Dev Club</title>
+    <meta property="og:title" content="Dev Club" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://devclub-iitd.github.io/DevClubWebsite/" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/devclub-iitd/devClubWebsite/master/public/images/devclub.png" />
+    <meta property="og:description" content="Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <link rel="shortcut icon" href="public_images/devclub.png" />
-        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
-        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
-        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
-        <link rel="stylesheet" type="text/css"  href='style.css' />
-        <link rel="stylesheet" type="text/css"  href='animation_styles.css' />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.1/typeit.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84158236-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-        <!--[if lt IE 9]>
+        gtag('config', 'UA-84158236-4');
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="public_images/devclub.png" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif'
+        rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href='css/clear.css' />
+    <link rel="stylesheet" type="text/css" href='css/common.css' />
+    <link rel="stylesheet" type="text/css" href='css/custom.css' />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href='css/font-awesome.min.css' />
+    <link rel="stylesheet" type="text/css" href='css/carouFredSel.css' />
+    <link rel="stylesheet" type="text/css" href='css/prettyPhoto.css' />
+    <link rel="stylesheet" type="text/css" href='css/sm-clean.css' />
+    <link rel="stylesheet" type="text/css" href='style.css' />
+    <link rel="stylesheet" type="text/css" href='animation_styles.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.1/typeit.js"></script>
+    <!-- <link rel="stylesheet" href="css/projects.css" /> -->
+
+
+    <!--[if lt IE 9]>
             <script src="js/html5.js"></script>
         <![endif]-->
 
-    </head>
-    <body>
+</head>
 
-        <!-- Preloader Gif -->
-        <table class="doc-loader">
-            <tr>
-                <td>
-                    
-                </td>
-            </tr>
-        </table>
+<body>
 
-        <!-- Menu -->
-        <div class="menu-wrapper center-relative">
-            <nav id="header-main-menu">
-                <div class="mob-menu">MENU</div>
-                <ul class="main-menu sm sm-clean">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">About Us</a></li>
-                    <li><a href="#portfolio">Campus Bot</a></li>
-                    <li><a href="#about">Study Portal</a></li>
-                    <li><a href="#news">Sendata</a></li>
-                    <li><a href="#video">Review System</a></li>
-                    <li><a href="#skills">Year Book</a></li>
-                    <li><a href="#contact">Team</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- Preloader Gif -->
+    <table class="doc-loader">
+        <tr>
+            <td>
 
-        <!-- Home -->
-        <div id="home" class="section intro-page">
-            <br><br><br><br>
-            <div class="block content-1170 center-relative center-text">
-                <h1 class="big-title"><font style="border: 4px; border-style: solid;">&nbspDEV.CLUB&nbsp</font></h1>
-                <br>
-                <p class="title-desc">Software Development Club, IIT Delhi</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Menu -->
+    <div class="menu-wrapper center-relative">
+        <nav id="header-main-menu">
+            <div class="mob-menu">MENU</div>
+            <ul class="main-menu sm sm-clean">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="section intro-page">
+        <div class="container">
+            <div class="row svg-row wow fadeIn" data-wow-delay="0.2s">
+                <div class="col-md-6"></div>
+                <svg viewBox="0 0 66 22" class="devclub col-md-6">
+                    <defs>
+                        <linearGradient id="fire">
+                            <stop class="start-stop" offset="0%" />
+                            <stop class="end-stop" offset="100%" />
+                        </linearGradient>
+                    </defs>
+                    <text stroke-dasharray="100" fill="none" stroke="url(#fire)" dy="1em" style="font-family:Ubuntu"
+                        stroke-width="0.5">
+                        DevClub
+                        <animate dur="8s" attributeName="stroke-dashoffset" values="100;0" />
+                        <!-- <animate id="anim1" attributeName="stroke-dashoffset" from="-50" to="50" dur="2s" fill="freeze"/>
+                            <animate id="anim2" attributeName="stroke-dashoffset" from="50" to="-50" dur="2s" begin="anim1.end+3ss" fill="freeze"/> -->
+                        <text>
+                </svg>
+            </div>
+            <div class="row wow fadeIn centre-mob" data-wow-delay="1s">
+                <p class="title-desc col-md-6">Software Development Club, IIT Delhi</p><br>
+            </div>
+            <div class="row wow fadeIn centre-mob" data-wow-delay="1.5s">
                 <h2 class="typed-container"><span class="typed">We <span id="verb"></span>things.</span></h2>
             </div>
         </div>
-
-
-       
-        <!-- Service -->
-
-        <div id="services" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder left">
-                    <div class="section-num">
-                        <span>01</span>
-                    </div>
-                    <h2 class="entry-title">About</h2>
-                </div>
-                <div class="section-content-holder right">
-                    <div class="content-wrapper">
-                        
-                        <div class="image-slider-wrapper relative service slider1">
-                            <div class="service-holder ">
-                                        
-                                        <div class="service-content-holder">
-                                            <div class="service-title">SOFTWARE DEVELOPEMENT CLUB - IITD</div>
-                                            <div class="service-content">
-                                                Dev Club is a student group that tries to innovate and foster technical activities, and create a coding culture which is somewhat missing. And we develop cool stuff that benefits everyone in the campus.<br />
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                            <div class = "clear"></div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class='clear'></div>
-            </div>
-        </div>
-
-
-        <!-- Portfolio -->
-        <div id="portfolio" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder right">
-                    <div class="section-num">
-                        <span>02</span>
-                    </div>
-                    <h2 class="entry-title">Campus Bot</h2>
-                </div>
-                <div class="section-content-holder portfolio-holder left">
-                    <div class="grid" id="portfolio-grid">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item element-item p_one">
-                            <img src="public_images/campusbot.png">
-                        </div>                      
-                    </div>
-                <div><font color="white">
-
-                                        <h3>Campus Bot</h3>
-                                        <p style="font-size:105%;">Campus Bot is a chat bot that was born at IIT Delhi. Campus Bot is one stop solution for all the campus needs that students and the faculty in the campus can use. It has been integrated into numerous chatting platforms.
-                                            Presently the bot has been trained for IITD but it can be later on trained for any campus by just modifying the format of the entry number i.e the Admission number.</p>
-                                        <a target="_blank" href="https://aman71197.github.io/CampusBot/" class="btn btn-light">Details about Project</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/CampusBot/" class="btn btn-light">GitHub Repository</a></font>
-                                        <br>
-                                        <br>
-
-                                    </div>
-                </div>
-
-                    <div class="clear"></div>
-            
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-
-
-        <!-- About -->
-        <div id="about" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder left">
-                    <div class="section-num">
-                        <span>03</span>
-                    </div>
-                    <h2 class="entry-title">STUDY PORTAL</h2>
-                </div>
-                <div class="section-content-holder portfolio-holder right">
-                    <div class="grid" id="portfolio-grid">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item element-item p_one">
-                            <img src="public_images/studyportal.png">
-                        </div>                      
-                    </div>
-                <div><font color="white">
-
-                                        <h3>Study Portal</h3>
-                                        <p style="font-size:105%;">We bring to you one of its kind crowd contributed portal. For the students, by the students and of the students. It acts as a one stop platform for all the learning that you will need. Share, learn and go. Presenting the study portal (Can be accessed only in internal IITD network)</p>
-                                        <a target="_blank" href="http://study.devclub.iitd.ac.in" class="btn btn-light">Access the Portal</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/BookShelf" class="btn btn-light">GitHub Repository</a></font>
-                                        <br>
-                                        <br>
-
-                                    </div>
-                </div>
-
-                    <div class="clear"></div>
-            
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-
-
-        <!-- News -->
-        <div id="news" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder right">
-                    <div class="section-num">
-                        <span>
-                            04
-                        </span>
-                    </div>
-                    <h2 class="entry-title">Sendata</h2>
-                </div>
-                <div class="section-content-holder portfolio-holder left">
-                    <div class="grid" id="portfolio-grid">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item element-item p_one">
-                            <img src="public_images/sendata.png">
-                        </div>                      
-                    </div>
-                <div ;"><font color="white">
-
-                                        <h3>SenData</h3>
-                                        <p style="font-size:105%;">Send large files seamlessly through the internet, without the hassle of uploading it on a server first. A simple tool that gets the job done. Powered by WebTorrent.</p>
-                                        <a target="_blank" href="http://fs.devclub.iitd.ac.in" class="btn btn-light">Access the Website</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/SenData" class="btn btn-light">GitHub Repository</a></font>
-                                        <br>
-                                        <br>
-
-                                    </div>
-                </div>
-
-                    <div class="clear"></div>
-            
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-
-
-        <!-- Video -->
-        <div id="video" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder left">
-                    <div class="section-num">
-                        <span>
-                            05
-                        </span>
-                    </div>
-                    <h2 class="entry-title">Review System</h2>
-                </div>
-                <div class="section-content-holder portfolio-holder right">
-                    <div class="grid" id="portfolio-grid">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item element-item p_one">
-                            <img src="public_images/ReviewSys.png">
-                        </div>                      
-                    </div>
-                <div><font color="white">
-
-                                        <h3>Review System</h3>
-                                        <p style="font-size:105%;">Review System is a tool for peer review in an organization. It allows anonymous ratings and reviews. Analysis of previous ratings can be seen for each individual.</p>
-                                        <a target="_blank" href="http://www.cse.iitd.ac.in/devclub/grades/" class="btn btn-light">Access the Website</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/ReviewSystem" class="btn btn-light">GitHub Repository</a></font>
-                                        <br>
-                                        <br>
-
-                                    </div>
-                </div>
-
-                    <div class="clear"></div>
-            
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-
-
-        <!-- Skills -->
-
-        <div id="skills" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder right">
-                    <div class="section-num">
-                        <span>06</span>
-                    </div>
-                    <h2 class="entry-title">Year Book</h2>
-                </div>
-                <div class="section-content-holder portfolio-holder left">
-                    <div class="grid" id="portfolio-grid">
-                        <div class="grid-sizer"></div>
-                        <div class="grid-item element-item p_one">
-                            <img src="public_images/yearbook.png">
-                        </div>                      
-                    </div>
-                <div><font color="white">
-
-                                        <h3>YearBook</h3>
-                                        <p style="font-size:105%;">This webapp is used to generate the yearbook every year for the final year students.</p>
-                                        <a target="_blank" href="http://yearbook.devclub.iitd.ac.in/" class="btn btn-light">Access the Website</a>&nbsp&nbsp&nbsp
-                                        <a target="_blank" href="https://github.com/devclub-iitd/Yearbook" class="btn btn-light">GitHub Repository</a></font>
-                                        <br>
-                                        <br>
-
-                                    </div>
-                </div>
-
-                    <div class="clear"></div>
-            
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-
-        <!-- Contact -->
-        <div id="contact" class="section">
-            <div class="block content-1170 center-relative">
-                <div class="section-title-holder left">
-                    <div class="section-num">
-                        <span>
-                            07
-                        </span>
-                    </div>
-                    <h2 class="entry-title">Team</h2>
-                </div>
-                <div class="section-content-holder right">
-                    <div class="content-wrapper">
-                        <div class="team">
-                        <div class="row">
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-1">
-                                    <img class="rounded-circle" src="public_images/aman.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Aman<br>Agrawal</h3>
-                                        <p class="small-text">Senior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/aman71197" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/aman71197" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a> </div>
-                                    </div>
-                                    <br>
-                            </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-2">
-                                    <img class="rounded-circle" src="public_images/arpan.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Arpan<br>Mangal</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/arpan.mangal.50" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/ArpanMangal" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                        
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-3">
-                                    <img class="rounded-circle" src="public_images/arsh.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Arshdeep<br>Singh</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons ">
-                                        <a target="_blank" href="https://www.facebook.com/4rshdeep" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://github.com/4rshdeep" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a> </div>
-                                    </div>
-                                    <br>
-                            </div>
-
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-4">
-                                    <img class="rounded-circle" src="public_images/atishya.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Atishya<br>Jain</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/atishya.jain.395" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/Atishya-jain" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-1">
-                                    <img class="rounded-circle" src="public_images/Ayush.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Ayush<br>Patel</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/ayush.patel.376695" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://github.com/Ayush21298" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                        
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-xs-6">
-                                  <div class="member add-animation animation-1">
-                                      <img class="rounded-circle" src="public_images/div.jpg">
-                                      <div class="description">
-                                          <h3 class="big-text">Divyanshu<br>Saxena</h3>
-                                          <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/divyanshu.saxena.96" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/DivyanshuSaxena" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                  </div>
-                              </div>
-
-                              <div class="col-md-3 col-xs-6">
-                                  <div class="member add-animation animation-2">
-                                      <img class="rounded-circle" src="public_images/mayank.png">
-                                      <div class="description">
-                                          <h3 class="big-text">Mayank<br>Chauhan</h3>
-                                          <p class="small-text">Junior Undergraduate</p>
-                                        </div>
-                                        <div class="social-buttons hidden-xs">
-                                            <a target="_blank" href="https://www.facebook.com/mayank.singh.7121614" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                            <a target="_blank" href="https://www.github.com/mayanksingh2298" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                        </div>
-                                        <br>
-                                  </div>
-                              </div>
-                              <div class="col-md-3 col-xs-6">
-                                  <div class="member add-animation animation-2">
-                                      <img class="rounded-circle" src="public_images/shashwat.jpg">
-                                      <div class="description">
-                                          <h3 class="big-text">Shashwat<br>Shivam</h3>
-                                          <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/ankurshaswat" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://github.com/ankurshaswat/" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                  </div>
-                              </div>
-
-                        </div>
-                        <div class="row">
-                          <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-1">
-                                    <img class="rounded-circle" src="public_images/siddhant.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Siddhant<br>Bhakar</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/siddhant.bhakar" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/Siddhant24" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-3">
-                                    <img class="rounded-circle" src="public_images/sushant.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Sushant<br>Rathi</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/sushant.rathi.12" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/sushant21" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-2">
-                                    <img class="rounded-circle" src="public_images/suyash.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Suyash<br>Agrawal</h3>
-                                        <p class="small-text">Senior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/suyash101297" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/ozym4nd145" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="member add-animation animation-4">
-                                    <img class="rounded-circle" src="public_images/udit.jpg">
-                                    <div class="description">
-                                        <h3 class="big-text">Udit<br>Jain</h3>
-                                        <p class="small-text">Junior Undergraduate
-                                        </p>
-                                    </div>
-                                    <div class="social-buttons hidden-xs">
-                                        <a target="_blank" href="https://www.facebook.com/uditj01" class="btn btn-social btn-facebook btn-simple"><i class="fa fa-facebook-square"></i></a>
-                                        <a target="_blank" href="https://www.github.com/udit01" class="btn btn-social btn-linkedin btn-simple"><i class="fa fa-github"></i></a>
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                <div class="clear"></div>
-            </div>
-        </div>
     </div>
-</div>
 
-        <!-- Footer -->
+    </div>
+    </div>
 
-        <footer>
-            <div class="footer content-1170 center-relative">
-                <ul>
-                    <li class="social-footer">
-                        <a href="https://github.com/devclub-iitd"><span class="fa fa-github fa-2x"></span></a>
-                        <a href="https://www.facebook.com/tech.iitd/"><span class="fa fa-facebook fa-2x"></span></a>
-                        <a href="mailto: devclub.iitd@gmail.com"><span class="fa fa-envelope fa-2x"></span></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+    <!-- Footer -->
 
+    <footer>
+        <div class="footer content-1170 center-relative">
+            <ul>
+                <li class="social-footer">
+                    <a href="https://github.com/devclub-iitd" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+                    <a href="https://www.facebook.com/tech.iitd/" target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+                    <a href="mailto: devclub.iitd@gmail.com" target="_blank"><span class="fa fa-envelope fa-2x"></span></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-        <!--Load JavaScript-->	
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
-        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
-        <script type='text/javascript' src='js/jquery.sticky.js'></script>
-        <script type='text/javascript' src='js/jquery.dryMenu.js'></script>
-        <script type='text/javascript' src='js/isotope.pkgd.js'></script>
-        <script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
-        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
-        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
-        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
-        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
-        <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
-        <script type='text/javascript' src='js/main.js'></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" ></script>
-        <script type="text/javascript">
-            function getRandomColor() {
-                var letters = '0123456789ABCDEF';
-                var color = '#';
-                for (var i = 0; i < 6; i++) {
-                  color += letters[Math.floor(Math.random() * 16)];
-                }
-                console.log(color);
-                return color;
-            }
-            console.log("Check.");
-            var color = getRandomColor();
-        	new TypeIt('#verb', {
-                strings: ["develop", "code", "invent", "question", "make"],
-			    speed: 90,
-			    breakLines: false,
-                loop: true,
-                beforeString: (step, queue, instance) => {
-                    document.getElementById("verb").style.color = getRandomColor();
-                },
-			    autoStart: true,
-			    nextStringDelay: 1200,
-                deleteSpeed: 50,
-			});
-        </script>
-    </body>
+    <!--Load JavaScript-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
+    <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+    <script type='text/javascript' src='js/jquery.sticky.js'></script>
+    <script type='text/javascript' src='js/jquery.dryMenu.js'></script>
+    <script type='text/javascript' src='js/isotope.pkgd.js'></script>
+    <script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
+    <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+    <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+    <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+    <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
+    <script type='text/javascript' src='js/main.js'></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
+    <script type="text/javascript">
+        function getRandomColor() {
+            var baseR = 255;
+            var endG = 255;
+            var endB = 255;
+
+            var letters = '0123456789ABCDEF';
+            var factor1 = Math.random();
+            var factor2 = Math.random();
+
+            var colorR = Math.floor(factor1 * baseR / (factor1 + factor2));
+            var colorG = Math.floor(factor2 * endG / (factor1 + factor2));
+            var colorB = Math.floor(factor2 * endB / (factor1 + factor2));
+            console.log(colorR + " " + colorG + " " + colorB);
+            var color = "#";
+            color = color + letters[Math.floor(colorR / 16)] + letters[colorR % 1];
+            color = color + letters[Math.floor(colorG / 16)] + letters[colorG % 16];
+            color = color + letters[Math.floor(colorB / 16)] + letters[colorB % 16];
+            console.log(color);
+            return color;
+        }
+        var color = getRandomColor();
+        new TypeIt('#verb', {
+            strings:    ["<span class='develop'>DEVELOP</span>", 
+                        "<span class='code'>CODE</span>", 
+                        "<span class='invent'>INVENT</span>", 
+                        "<span class='question'>QUESTION</span>", 
+                        "<span class='make'>MAKE</span>"],
+            speed: 90,
+            breakLines: false,
+            loop: true,
+            autoStart: true,
+            nextStringDelay: 500,
+            deleteSpeed: 50,
+        });
+    </script>
+</body>
+
 </html>
